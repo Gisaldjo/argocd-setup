@@ -1,0 +1,25 @@
+{
+    "deploy": {
+        "steps": [
+            {
+                "apply": {
+                    "file": "cert-manager.yaml",
+                    "namespace": "cert-manager"
+                }
+            },
+            {
+                "wait": {
+                    "duration": 600
+                }
+            },
+            {
+                "apply": {
+                    "file": "kustomize_combined_crd.yaml",
+                    "operator": true
+                }
+            }
+        ]
+    },
+    "crd_name": "argocds.argoproj.io",
+    "seed_custom_resource": "argocd-basic.yaml"
+}
