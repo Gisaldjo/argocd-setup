@@ -70,7 +70,7 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(rails ruby bundler dotenv gem gitignore heroku history history-substring-search rake zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(gitignore history history-substring-search zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -100,53 +100,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-. "$HOME/.asdf/asdf.sh"
-# append completions to fpath
-fpath=(${ASDF_DIR}/completions $fpath)
 # initialise completions with ZSH's compinit
 autoload -Uz compinit && compinit
 
-export EDITOR="code --wait"
 alias code='code-insiders'
-if [[ "$PWD" == "/home/gisaldjo/dev/acktfast-backend" ]]; then
-    alias shell='python manage.py shell_plus --ipython'
-    alias run='python manage.py runserver'
-    alias migrate='python manage.py migrate'
-    alias makemigrations='python manage.py makemigrations'
-    alias seeddata='python manage.py seeddata'
-    alias test='python manage.py test'
-fi
-
-export PATH="/home/gisaldjo/.local/bin:$PATH"
-export PATH=$PATH:/usr/local/go/bin
-export PATH=/usr/local/cuda-12.3/bin${PATH:+:${PATH}}
-export LDFLAGS="-L/home/linuxbrew/.linuxbrew/opt/libomp/lib"
-export CPPFLAGS="-I/home/linuxbrew/.linuxbrew/opt/libomp/include"
-
-# pnpm
-export PNPM_HOME="/home/gisaldjo/.local/share/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/gisaldjo/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/gisaldjo/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/gisaldjo/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/gisaldjo/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
-
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
-export ANDROID_HOME=$HOME/Android/Sdk
-export PATH="$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/cmdline-tools/latest:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$PATH"
