@@ -12,6 +12,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 sudo chsh -s $(which zsh) $USER # Set zsh as default shell
+echo 'export ZSH_THEME="dst"' >> ~/.zshrc
 
 # Install brew
 NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -43,11 +44,6 @@ rm kubectl
 brew install kind
 brew install derailed/k9s/k9s
 
-# Force update to docker group & create kind cluster
-newgrp docker << END
-kind create cluster --config kind.yaml
-END
-
 # Acto requirements & relevant ArgoCD operator files
 git clone https://github.com/xlab-uiuc/acto.git ../acto
 cp ../acto_config ../acto/
@@ -55,6 +51,3 @@ cp ../kustomize_combined_crd.yaml ../acto/
 cp ../cert-manager.yaml ../acto/
 cp ../argocd-basic.yaml ../acto/
 pip3 install -r ../acto/requirements.txt
-
-# ArgoCD dependency
-kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/v1.14.1/cert-manager.yaml
