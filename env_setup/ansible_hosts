@@ -1,0 +1,6 @@
+pc14.cloudlab.umass.edu ansible_connection=ssh ansible_user=gp27 ansible_port=22
+pc20.cloudlab.umass.edu ansible_connection=ssh ansible_user=gp27 ansible_port=22
+pc40.cloudlab.umass.edu ansible_connection=ssh ansible_user=gp27 ansible_port=22
+pc06.cloudlab.umass.edu ansible_connection=ssh ansible_user=gp27 ansible_port=22
+pc30.cloudlab.umass.edu ansible_connection=ssh ansible_user=gp27 ansible_port=22
+pc12.cloudlab.umass.edu ansible_connection=ssh ansible_user=gp27 ansible_port=22
