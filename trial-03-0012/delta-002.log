@@ -1,0 +1,868 @@
+---------- INPUT DELTA  ----------
+{
+      "dictionary_item_added": {
+            "root['spec']['prometheus'][enabled]": {
+                  "prev": "NotPresent",
+                  "curr": true,
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "enabled"
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][ingress][annotations][ACTOKEY]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "ingress",
+                              "annotations",
+                              "ACTOKEY"
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][ingress][enabled]": {
+                  "prev": "NotPresent",
+                  "curr": true,
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "ingress",
+                              "enabled"
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][ingress][ingressClassName]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "ingress",
+                              "ingressClassName"
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][ingress][path]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "ingress",
+                              "path"
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][ingress][tls][0][hosts][0]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "ingress",
+                              "tls",
+                              0,
+                              "hosts",
+                              0
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][ingress][tls][0][hosts][1]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "ingress",
+                              "tls",
+                              0,
+                              "hosts",
+                              1
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][ingress][tls][0][hosts][2]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "ingress",
+                              "tls",
+                              0,
+                              "hosts",
+                              2
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][ingress][tls][0][hosts][3]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "ingress",
+                              "tls",
+                              0,
+                              "hosts",
+                              3
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][ingress][tls][0][secretName]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "ingress",
+                              "tls",
+                              0,
+                              "secretName"
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][ingress][tls][1][hosts][0]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "ingress",
+                              "tls",
+                              1,
+                              "hosts",
+                              0
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][ingress][tls][1][hosts][1]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "ingress",
+                              "tls",
+                              1,
+                              "hosts",
+                              1
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][ingress][tls][1][hosts][2]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "ingress",
+                              "tls",
+                              1,
+                              "hosts",
+                              2
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][ingress][tls][1][hosts][3]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "ingress",
+                              "tls",
+                              1,
+                              "hosts",
+                              3
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][ingress][tls][1][secretName]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "ingress",
+                              "tls",
+                              1,
+                              "secretName"
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][ingress][tls][2][hosts][0]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "ingress",
+                              "tls",
+                              2,
+                              "hosts",
+                              0
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][ingress][tls][2][secretName]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "ingress",
+                              "tls",
+                              2,
+                              "secretName"
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][ingress][tls][3][secretName]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "ingress",
+                              "tls",
+                              3,
+                              "secretName"
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][ingress][tls][4][hosts][0]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "ingress",
+                              "tls",
+                              4,
+                              "hosts",
+                              0
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][ingress][tls][4][hosts][1]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "ingress",
+                              "tls",
+                              4,
+                              "hosts",
+                              1
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][ingress][tls][4][secretName]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "ingress",
+                              "tls",
+                              4,
+                              "secretName"
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][route][enabled]": {
+                  "prev": "NotPresent",
+                  "curr": true,
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "route",
+                              "enabled"
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][route][labels][ACTOKEY]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "route",
+                              "labels",
+                              "ACTOKEY"
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][route][path]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "route",
+                              "path"
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][route][tls][caCertificate]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "route",
+                              "tls",
+                              "caCertificate"
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][route][tls][certificate]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "route",
+                              "tls",
+                              "certificate"
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][route][tls][destinationCACertificate]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "route",
+                              "tls",
+                              "destinationCACertificate"
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][route][tls][insecureEdgeTerminationPolicy]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "route",
+                              "tls",
+                              "insecureEdgeTerminationPolicy"
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][route][tls][key]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "route",
+                              "tls",
+                              "key"
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][route][tls][termination]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "route",
+                              "tls",
+                              "termination"
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][route][wildcardPolicy]": {
+                  "prev": "NotPresent",
+                  "curr": "ACTOKEY",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "route",
+                              "wildcardPolicy"
+                        ]
+                  }
+            },
+            "root['spec']['prometheus'][size]": {
+                  "prev": "NotPresent",
+                  "curr": 2,
+                  "path": {
+                        "path": [
+                              "spec",
+                              "prometheus",
+                              "size"
+                        ]
+                  }
+            }
+      }
+}
+---------- SYSTEM DELTA ----------
+{
+      "pod": {},
+      "deployment_pods": {},
+      "daemonset_pods": {},
+      "stateful_set": {},
+      "deployment": {},
+      "daemon_set": {},
+      "config_map": {},
+      "service": {},
+      "pvc": {},
+      "cronjob": {},
+      "ingress": {},
+      "network_policy": {},
+      "pod_disruption_budget": {},
+      "secret": {},
+      "endpoints": {},
+      "service_account": {},
+      "job": {},
+      "role": {},
+      "role_binding": {},
+      "custom_resource_spec": {
+            "values_changed": {
+                  "root['prometheus']['enabled']": {
+                        "prev": false,
+                        "curr": true,
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "enabled"
+                              ]
+                        }
+                  },
+                  "root['prometheus']['ingress']['enabled']": {
+                        "prev": false,
+                        "curr": true,
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "ingress",
+                                    "enabled"
+                              ]
+                        }
+                  },
+                  "root['prometheus']['route']['enabled']": {
+                        "prev": false,
+                        "curr": true,
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "route",
+                                    "enabled"
+                              ]
+                        }
+                  }
+            },
+            "dictionary_item_added": {
+                  "root['prometheus']['size']": {
+                        "prev": "NotPresent",
+                        "curr": 2,
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "size"
+                              ]
+                        }
+                  },
+                  "root['prometheus']['ingress']['annotations'][ACTOKEY]": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "ingress",
+                                    "annotations",
+                                    "ACTOKEY"
+                              ]
+                        }
+                  },
+                  "root['prometheus']['ingress']['ingressClassName']": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "ingress",
+                                    "ingressClassName"
+                              ]
+                        }
+                  },
+                  "root['prometheus']['ingress']['path']": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "ingress",
+                                    "path"
+                              ]
+                        }
+                  },
+                  "root['prometheus']['ingress']['tls'][0][hosts][0]": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "ingress",
+                                    "tls",
+                                    0,
+                                    "hosts",
+                                    0
+                              ]
+                        }
+                  },
+                  "root['prometheus']['ingress']['tls'][0][hosts][1]": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "ingress",
+                                    "tls",
+                                    0,
+                                    "hosts",
+                                    1
+                              ]
+                        }
+                  },
+                  "root['prometheus']['ingress']['tls'][0][hosts][2]": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "ingress",
+                                    "tls",
+                                    0,
+                                    "hosts",
+                                    2
+                              ]
+                        }
+                  },
+                  "root['prometheus']['ingress']['tls'][0][hosts][3]": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "ingress",
+                                    "tls",
+                                    0,
+                                    "hosts",
+                                    3
+                              ]
+                        }
+                  },
+                  "root['prometheus']['ingress']['tls'][0][secretName]": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "ingress",
+                                    "tls",
+                                    0,
+                                    "secretName"
+                              ]
+                        }
+                  },
+                  "root['prometheus']['ingress']['tls'][1][hosts][0]": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "ingress",
+                                    "tls",
+                                    1,
+                                    "hosts",
+                                    0
+                              ]
+                        }
+                  },
+                  "root['prometheus']['ingress']['tls'][1][hosts][1]": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "ingress",
+                                    "tls",
+                                    1,
+                                    "hosts",
+                                    1
+                              ]
+                        }
+                  },
+                  "root['prometheus']['ingress']['tls'][1][hosts][2]": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "ingress",
+                                    "tls",
+                                    1,
+                                    "hosts",
+                                    2
+                              ]
+                        }
+                  },
+                  "root['prometheus']['ingress']['tls'][1][hosts][3]": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "ingress",
+                                    "tls",
+                                    1,
+                                    "hosts",
+                                    3
+                              ]
+                        }
+                  },
+                  "root['prometheus']['ingress']['tls'][1][secretName]": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "ingress",
+                                    "tls",
+                                    1,
+                                    "secretName"
+                              ]
+                        }
+                  },
+                  "root['prometheus']['ingress']['tls'][2][hosts][0]": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "ingress",
+                                    "tls",
+                                    2,
+                                    "hosts",
+                                    0
+                              ]
+                        }
+                  },
+                  "root['prometheus']['ingress']['tls'][2][secretName]": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "ingress",
+                                    "tls",
+                                    2,
+                                    "secretName"
+                              ]
+                        }
+                  },
+                  "root['prometheus']['ingress']['tls'][3][secretName]": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "ingress",
+                                    "tls",
+                                    3,
+                                    "secretName"
+                              ]
+                        }
+                  },
+                  "root['prometheus']['ingress']['tls'][4][hosts][0]": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "ingress",
+                                    "tls",
+                                    4,
+                                    "hosts",
+                                    0
+                              ]
+                        }
+                  },
+                  "root['prometheus']['ingress']['tls'][4][hosts][1]": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "ingress",
+                                    "tls",
+                                    4,
+                                    "hosts",
+                                    1
+                              ]
+                        }
+                  },
+                  "root['prometheus']['ingress']['tls'][4][secretName]": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "ingress",
+                                    "tls",
+                                    4,
+                                    "secretName"
+                              ]
+                        }
+                  },
+                  "root['prometheus']['route']['labels'][ACTOKEY]": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "route",
+                                    "labels",
+                                    "ACTOKEY"
+                              ]
+                        }
+                  },
+                  "root['prometheus']['route']['path']": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "route",
+                                    "path"
+                              ]
+                        }
+                  },
+                  "root['prometheus']['route']['tls'][caCertificate]": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "route",
+                                    "tls",
+                                    "caCertificate"
+                              ]
+                        }
+                  },
+                  "root['prometheus']['route']['tls'][certificate]": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "route",
+                                    "tls",
+                                    "certificate"
+                              ]
+                        }
+                  },
+                  "root['prometheus']['route']['tls'][destinationCACertificate]": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "route",
+                                    "tls",
+                                    "destinationCACertificate"
+                              ]
+                        }
+                  },
+                  "root['prometheus']['route']['tls'][insecureEdgeTerminationPolicy]": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "route",
+                                    "tls",
+                                    "insecureEdgeTerminationPolicy"
+                              ]
+                        }
+                  },
+                  "root['prometheus']['route']['tls'][key]": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "route",
+                                    "tls",
+                                    "key"
+                              ]
+                        }
+                  },
+                  "root['prometheus']['route']['tls'][termination]": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "route",
+                                    "tls",
+                                    "termination"
+                              ]
+                        }
+                  },
+                  "root['prometheus']['route']['wildcardPolicy']": {
+                        "prev": "NotPresent",
+                        "curr": "ACTOKEY",
+                        "path": {
+                              "path": [
+                                    "prometheus",
+                                    "route",
+                                    "wildcardPolicy"
+                              ]
+                        }
+                  }
+            }
+      },
+      "custom_resource_status": {}
+}

@@ -1,0 +1,4 @@
+{
+    "stdout": "argocd.argoproj.io/test-cluster created",
+    "stderr": ""
+}

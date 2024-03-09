@@ -1,0 +1,16 @@
+apiVersion: argoproj.io/v1beta1
+kind: ArgoCD
+metadata:
+  labels:
+    example: basic
+  name: test-cluster
+spec:
+  repo:
+    sidecarContainers:
+    - name: hojlupteqv
+      readinessProbe:
+        httpGet:
+          httpHeaders:
+          - name: INVALID_NAME
+            value: tzfyomvgnp
+          port: 2

@@ -1,0 +1,4216 @@
+{
+    "api_version": "v1",
+    "items": [
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:09+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": null,
+                "kind": "Pod",
+                "name": "argocd-operator-controller-manager-64bf595bcf-2r2vw",
+                "namespace": "argocd-operator-system",
+                "resource_version": "833",
+                "uid": "f08f4dff-045a-46ba-aa73-80dd854c4d27"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:09+00:00",
+            "message": "Successfully assigned argocd-operator-system/argocd-operator-controller-manager-64bf595bcf-2r2vw to acto-0-cluster-3-worker3",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:09+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kube-scheduler",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:09+00:00"
+                    }
+                ],
+                "name": "argocd-operator-controller-manager-64bf595bcf-2r2vw.17ba4b08c66900f7",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "841",
+                "self_link": null,
+                "uid": "7247ad97-cfb8-49d1-97b5-a56048b0a958"
+            },
+            "reason": "Scheduled",
+            "related": null,
+            "reporting_component": "default-scheduler",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "default-scheduler",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:09+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": null,
+                "kind": "Pod",
+                "name": "argocd-operator-controller-manager-64bf595bcf-2r2vw",
+                "namespace": "argocd-operator-system",
+                "resource_version": "837",
+                "uid": "f08f4dff-045a-46ba-aa73-80dd854c4d27"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:09+00:00",
+            "message": "MountVolume.SetUp failed for volume \"cert\" : secret \"webhook-server-cert\" not found",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:09+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:09+00:00"
+                    }
+                ],
+                "name": "argocd-operator-controller-manager-64bf595bcf-2r2vw.17ba4b08cf5b497e",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "849",
+                "self_link": null,
+                "uid": "2ce3e5f6-87b0-4e17-a9a8-6b9550bd10d7"
+            },
+            "reason": "FailedMount",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker3",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker3"
+            },
+            "type": "Warning"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:10+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.containers{manager}",
+                "kind": "Pod",
+                "name": "argocd-operator-controller-manager-64bf595bcf-2r2vw",
+                "namespace": "argocd-operator-system",
+                "resource_version": "837",
+                "uid": "f08f4dff-045a-46ba-aa73-80dd854c4d27"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:10+00:00",
+            "message": "Container image \"quay.io/argoprojlabs/argocd-operator:v0.8.0\" already present on machine",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:10+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:10+00:00"
+                    }
+                ],
+                "name": "argocd-operator-controller-manager-64bf595bcf-2r2vw.17ba4b0909df968a",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "880",
+                "self_link": null,
+                "uid": "1a589cab-3830-412f-b3f5-c9c8878a56c4"
+            },
+            "reason": "Pulled",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker3",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker3"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:10+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.containers{manager}",
+                "kind": "Pod",
+                "name": "argocd-operator-controller-manager-64bf595bcf-2r2vw",
+                "namespace": "argocd-operator-system",
+                "resource_version": "837",
+                "uid": "f08f4dff-045a-46ba-aa73-80dd854c4d27"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:10+00:00",
+            "message": "Created container manager",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:10+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:10+00:00"
+                    }
+                ],
+                "name": "argocd-operator-controller-manager-64bf595bcf-2r2vw.17ba4b090bb6cc6a",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "881",
+                "self_link": null,
+                "uid": "0771d660-77fd-49d4-a957-2b8b1dea615d"
+            },
+            "reason": "Created",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker3",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker3"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:10+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.containers{manager}",
+                "kind": "Pod",
+                "name": "argocd-operator-controller-manager-64bf595bcf-2r2vw",
+                "namespace": "argocd-operator-system",
+                "resource_version": "837",
+                "uid": "f08f4dff-045a-46ba-aa73-80dd854c4d27"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:10+00:00",
+            "message": "Started container manager",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:10+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:10+00:00"
+                    }
+                ],
+                "name": "argocd-operator-controller-manager-64bf595bcf-2r2vw.17ba4b09156b42f4",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "882",
+                "self_link": null,
+                "uid": "27db47ef-7707-4e85-8f88-ce221c9e99af"
+            },
+            "reason": "Started",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker3",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker3"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:35+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.containers{manager}",
+                "kind": "Pod",
+                "name": "argocd-operator-controller-manager-64bf595bcf-2r2vw",
+                "namespace": "argocd-operator-system",
+                "resource_version": "837",
+                "uid": "f08f4dff-045a-46ba-aa73-80dd854c4d27"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:35+00:00",
+            "message": "Stopping container manager",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:35+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:35+00:00"
+                    }
+                ],
+                "name": "argocd-operator-controller-manager-64bf595bcf-2r2vw.17ba4b0ec3ea1155",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "983",
+                "self_link": null,
+                "uid": "7daf42c4-5cdd-476c-b793-9fa646e9bebd"
+            },
+            "reason": "Killing",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker3",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker3"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:09+00:00",
+            "involved_object": {
+                "api_version": "apps/v1",
+                "field_path": null,
+                "kind": "ReplicaSet",
+                "name": "argocd-operator-controller-manager-64bf595bcf",
+                "namespace": "argocd-operator-system",
+                "resource_version": "829",
+                "uid": "f6ee6565-42bf-495b-a000-c108b0eee80d"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:09+00:00",
+            "message": "Created pod: argocd-operator-controller-manager-64bf595bcf-2r2vw",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:09+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kube-controller-manager",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:09+00:00"
+                    }
+                ],
+                "name": "argocd-operator-controller-manager-64bf595bcf.17ba4b08c54e83ae",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "836",
+                "self_link": null,
+                "uid": "e4920c86-10a7-4ea6-8719-93a2475ac12f"
+            },
+            "reason": "SuccessfulCreate",
+            "related": null,
+            "reporting_component": "replicaset-controller",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "replicaset-controller",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:35+00:00",
+            "involved_object": {
+                "api_version": "apps/v1",
+                "field_path": null,
+                "kind": "ReplicaSet",
+                "name": "argocd-operator-controller-manager-64bf595bcf",
+                "namespace": "argocd-operator-system",
+                "resource_version": "976",
+                "uid": "f6ee6565-42bf-495b-a000-c108b0eee80d"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:35+00:00",
+            "message": "Deleted pod: argocd-operator-controller-manager-64bf595bcf-2r2vw",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:35+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kube-controller-manager",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:35+00:00"
+                    }
+                ],
+                "name": "argocd-operator-controller-manager-64bf595bcf.17ba4b0ec3e03fe0",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "980",
+                "self_link": null,
+                "uid": "3f9ef5e1-f75c-41e4-a0cd-a745b5d5cc01"
+            },
+            "reason": "SuccessfulDelete",
+            "related": null,
+            "reporting_component": "replicaset-controller",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "replicaset-controller",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:24+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": null,
+                "kind": "Pod",
+                "name": "argocd-operator-controller-manager-78c8cd768f-p7ntd",
+                "namespace": "argocd-operator-system",
+                "resource_version": "928",
+                "uid": "a12219a3-e8c6-458a-b4c3-d24f80026bb6"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:24+00:00",
+            "message": "Successfully assigned argocd-operator-system/argocd-operator-controller-manager-78c8cd768f-p7ntd to acto-0-cluster-3-worker",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:24+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kube-scheduler",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:24+00:00"
+                    }
+                ],
+                "name": "argocd-operator-controller-manager-78c8cd768f-p7ntd.17ba4b0c5b558d22",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "934",
+                "self_link": null,
+                "uid": "f881dfb1-048f-45dc-8636-5d45c9c49c08"
+            },
+            "reason": "Scheduled",
+            "related": null,
+            "reporting_component": "default-scheduler",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "default-scheduler",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:25+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.containers{manager}",
+                "kind": "Pod",
+                "name": "argocd-operator-controller-manager-78c8cd768f-p7ntd",
+                "namespace": "argocd-operator-system",
+                "resource_version": "932",
+                "uid": "a12219a3-e8c6-458a-b4c3-d24f80026bb6"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:25+00:00",
+            "message": "Container image \"quay.io/argoprojlabs/argocd-operator:v0.8.0\" already present on machine",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:25+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:25+00:00"
+                    }
+                ],
+                "name": "argocd-operator-controller-manager-78c8cd768f-p7ntd.17ba4b0c766126a0",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "940",
+                "self_link": null,
+                "uid": "eec4637d-a7cc-472c-ab6f-0546afae2a77"
+            },
+            "reason": "Pulled",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:25+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.containers{manager}",
+                "kind": "Pod",
+                "name": "argocd-operator-controller-manager-78c8cd768f-p7ntd",
+                "namespace": "argocd-operator-system",
+                "resource_version": "932",
+                "uid": "a12219a3-e8c6-458a-b4c3-d24f80026bb6"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:25+00:00",
+            "message": "Created container manager",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:25+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:25+00:00"
+                    }
+                ],
+                "name": "argocd-operator-controller-manager-78c8cd768f-p7ntd.17ba4b0c77220a64",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "941",
+                "self_link": null,
+                "uid": "641ba9ba-1c8b-410d-952c-2e5814c46bbd"
+            },
+            "reason": "Created",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:25+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.containers{manager}",
+                "kind": "Pod",
+                "name": "argocd-operator-controller-manager-78c8cd768f-p7ntd",
+                "namespace": "argocd-operator-system",
+                "resource_version": "932",
+                "uid": "a12219a3-e8c6-458a-b4c3-d24f80026bb6"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:25+00:00",
+            "message": "Started container manager",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:25+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:25+00:00"
+                    }
+                ],
+                "name": "argocd-operator-controller-manager-78c8cd768f-p7ntd.17ba4b0c7a9ecfd5",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "942",
+                "self_link": null,
+                "uid": "c89b1c14-5b87-4f70-99c5-d1f0790b79f2"
+            },
+            "reason": "Started",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:24+00:00",
+            "involved_object": {
+                "api_version": "apps/v1",
+                "field_path": null,
+                "kind": "ReplicaSet",
+                "name": "argocd-operator-controller-manager-78c8cd768f",
+                "namespace": "argocd-operator-system",
+                "resource_version": "927",
+                "uid": "d9e7c2dd-18f9-47d8-adae-4a467d5c6c96"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:24+00:00",
+            "message": "Created pod: argocd-operator-controller-manager-78c8cd768f-p7ntd",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:24+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kube-controller-manager",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:24+00:00"
+                    }
+                ],
+                "name": "argocd-operator-controller-manager-78c8cd768f.17ba4b0c5ad8b3c8",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "931",
+                "self_link": null,
+                "uid": "7eeceadc-c110-4ac3-9370-2164a0dd119a"
+            },
+            "reason": "SuccessfulCreate",
+            "related": null,
+            "reporting_component": "replicaset-controller",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "replicaset-controller",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:09+00:00",
+            "involved_object": {
+                "api_version": "apps/v1",
+                "field_path": null,
+                "kind": "Deployment",
+                "name": "argocd-operator-controller-manager",
+                "namespace": "argocd-operator-system",
+                "resource_version": "828",
+                "uid": "6d7fb752-204b-4f88-9803-66ee03c0280c"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:09+00:00",
+            "message": "Scaled up replica set argocd-operator-controller-manager-64bf595bcf to 1",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:09+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kube-controller-manager",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:09+00:00"
+                    }
+                ],
+                "name": "argocd-operator-controller-manager.17ba4b08c33e1888",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "830",
+                "self_link": null,
+                "uid": "158f4355-f00c-44ef-a159-b04b9eb44189"
+            },
+            "reason": "ScalingReplicaSet",
+            "related": null,
+            "reporting_component": "deployment-controller",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "deployment-controller",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:24+00:00",
+            "involved_object": {
+                "api_version": "apps/v1",
+                "field_path": null,
+                "kind": "Deployment",
+                "name": "argocd-operator-controller-manager",
+                "namespace": "argocd-operator-system",
+                "resource_version": "926",
+                "uid": "6d7fb752-204b-4f88-9803-66ee03c0280c"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:24+00:00",
+            "message": "Scaled up replica set argocd-operator-controller-manager-78c8cd768f to 1",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:24+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kube-controller-manager",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:24+00:00"
+                    }
+                ],
+                "name": "argocd-operator-controller-manager.17ba4b0c5a9c9d62",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "930",
+                "self_link": null,
+                "uid": "e00ebb25-ccc1-496c-ba55-aa13e8c30792"
+            },
+            "reason": "ScalingReplicaSet",
+            "related": null,
+            "reporting_component": "deployment-controller",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "deployment-controller",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:35+00:00",
+            "involved_object": {
+                "api_version": "apps/v1",
+                "field_path": null,
+                "kind": "Deployment",
+                "name": "argocd-operator-controller-manager",
+                "namespace": "argocd-operator-system",
+                "resource_version": "938",
+                "uid": "6d7fb752-204b-4f88-9803-66ee03c0280c"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:35+00:00",
+            "message": "Scaled down replica set argocd-operator-controller-manager-64bf595bcf to 0 from 1",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:35+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kube-controller-manager",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:35+00:00"
+                    }
+                ],
+                "name": "argocd-operator-controller-manager.17ba4b0ec3479028",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "978",
+                "self_link": null,
+                "uid": "e86ef270-4fc3-4efd-9f7c-d220830ac39d"
+            },
+            "reason": "ScalingReplicaSet",
+            "related": null,
+            "reporting_component": "deployment-controller",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "deployment-controller",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:09+00:00",
+            "involved_object": {
+                "api_version": "cert-manager.io/v1",
+                "field_path": null,
+                "kind": "CertificateRequest",
+                "name": "argocd-operator-serving-cert-1",
+                "namespace": "argocd-operator-system",
+                "resource_version": "855",
+                "uid": "3d60886d-6351-40e0-8b6f-f81e484e6202"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:09+00:00",
+            "message": "Not signing CertificateRequest until it is Approved",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:09+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "cert-manager-certificaterequests-issuer-selfsigned",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:09+00:00"
+                    }
+                ],
+                "name": "argocd-operator-serving-cert-1.17ba4b08d5ed5829",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "859",
+                "self_link": null,
+                "uid": "79f68250-dd58-4fd0-9d7a-cc78f13acc77"
+            },
+            "reason": "WaitingForApproval",
+            "related": null,
+            "reporting_component": "cert-manager-certificaterequests-issuer-selfsigned",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "cert-manager-certificaterequests-issuer-selfsigned",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:09+00:00",
+            "involved_object": {
+                "api_version": "cert-manager.io/v1",
+                "field_path": null,
+                "kind": "CertificateRequest",
+                "name": "argocd-operator-serving-cert-1",
+                "namespace": "argocd-operator-system",
+                "resource_version": "855",
+                "uid": "3d60886d-6351-40e0-8b6f-f81e484e6202"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:09+00:00",
+            "message": "Not signing CertificateRequest until it is Approved",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:09+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "cert-manager-certificaterequests-issuer-ca",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:09+00:00"
+                    }
+                ],
+                "name": "argocd-operator-serving-cert-1.17ba4b08d5ed7845",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "856",
+                "self_link": null,
+                "uid": "4f9a04cf-2845-4b13-a50f-40668dd61d96"
+            },
+            "reason": "WaitingForApproval",
+            "related": null,
+            "reporting_component": "cert-manager-certificaterequests-issuer-ca",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "cert-manager-certificaterequests-issuer-ca",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:09+00:00",
+            "involved_object": {
+                "api_version": "cert-manager.io/v1",
+                "field_path": null,
+                "kind": "CertificateRequest",
+                "name": "argocd-operator-serving-cert-1",
+                "namespace": "argocd-operator-system",
+                "resource_version": "855",
+                "uid": "3d60886d-6351-40e0-8b6f-f81e484e6202"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:09+00:00",
+            "message": "Not signing CertificateRequest until it is Approved",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:09+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "cert-manager-certificaterequests-issuer-vault",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:09+00:00"
+                    }
+                ],
+                "name": "argocd-operator-serving-cert-1.17ba4b08d5f121d1",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "860",
+                "self_link": null,
+                "uid": "3cf25d2d-aab6-45fb-ae55-d8791c51f26f"
+            },
+            "reason": "WaitingForApproval",
+            "related": null,
+            "reporting_component": "cert-manager-certificaterequests-issuer-vault",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "cert-manager-certificaterequests-issuer-vault",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:09+00:00",
+            "involved_object": {
+                "api_version": "cert-manager.io/v1",
+                "field_path": null,
+                "kind": "CertificateRequest",
+                "name": "argocd-operator-serving-cert-1",
+                "namespace": "argocd-operator-system",
+                "resource_version": "855",
+                "uid": "3d60886d-6351-40e0-8b6f-f81e484e6202"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:09+00:00",
+            "message": "Not signing CertificateRequest until it is Approved",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:09+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "cert-manager-certificaterequests-issuer-acme",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:09+00:00"
+                    }
+                ],
+                "name": "argocd-operator-serving-cert-1.17ba4b08d5f21d2f",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "857",
+                "self_link": null,
+                "uid": "4858a7ee-bb22-45e3-8e30-cef9f2310b35"
+            },
+            "reason": "WaitingForApproval",
+            "related": null,
+            "reporting_component": "cert-manager-certificaterequests-issuer-acme",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "cert-manager-certificaterequests-issuer-acme",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:09+00:00",
+            "involved_object": {
+                "api_version": "cert-manager.io/v1",
+                "field_path": null,
+                "kind": "CertificateRequest",
+                "name": "argocd-operator-serving-cert-1",
+                "namespace": "argocd-operator-system",
+                "resource_version": "855",
+                "uid": "3d60886d-6351-40e0-8b6f-f81e484e6202"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:09+00:00",
+            "message": "Not signing CertificateRequest until it is Approved",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:09+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "cert-manager-certificaterequests-issuer-venafi",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:09+00:00"
+                    }
+                ],
+                "name": "argocd-operator-serving-cert-1.17ba4b08d5f2dccb",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "861",
+                "self_link": null,
+                "uid": "cb378dad-0c67-4af3-81ff-93f10a8f5200"
+            },
+            "reason": "WaitingForApproval",
+            "related": null,
+            "reporting_component": "cert-manager-certificaterequests-issuer-venafi",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "cert-manager-certificaterequests-issuer-venafi",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:09+00:00",
+            "involved_object": {
+                "api_version": "cert-manager.io/v1",
+                "field_path": null,
+                "kind": "CertificateRequest",
+                "name": "argocd-operator-serving-cert-1",
+                "namespace": "argocd-operator-system",
+                "resource_version": "855",
+                "uid": "3d60886d-6351-40e0-8b6f-f81e484e6202"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:09+00:00",
+            "message": "Certificate request has been approved by cert-manager.io",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:09+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "cert-manager-certificaterequests-approver",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:09+00:00"
+                    }
+                ],
+                "name": "argocd-operator-serving-cert-1.17ba4b08d72a7b08",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "864",
+                "self_link": null,
+                "uid": "34179dce-8264-4916-adcf-5f9b2fd5a735"
+            },
+            "reason": "cert-manager.io",
+            "related": null,
+            "reporting_component": "cert-manager-certificaterequests-approver",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "cert-manager-certificaterequests-approver",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:09+00:00",
+            "involved_object": {
+                "api_version": "cert-manager.io/v1",
+                "field_path": null,
+                "kind": "CertificateRequest",
+                "name": "argocd-operator-serving-cert-1",
+                "namespace": "argocd-operator-system",
+                "resource_version": "863",
+                "uid": "3d60886d-6351-40e0-8b6f-f81e484e6202"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:09+00:00",
+            "message": "Certificate will be issued with an empty Issuer DN, which contravenes RFC 5280 and could break some strict clients",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:09+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "cert-manager-certificaterequests-issuer-selfsigned",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:09+00:00"
+                    }
+                ],
+                "name": "argocd-operator-serving-cert-1.17ba4b08d7588896",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "865",
+                "self_link": null,
+                "uid": "18832c4b-191c-410e-ab3a-dc6048308d96"
+            },
+            "reason": "BadConfig",
+            "related": null,
+            "reporting_component": "cert-manager-certificaterequests-issuer-selfsigned",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "cert-manager-certificaterequests-issuer-selfsigned",
+                "host": null
+            },
+            "type": "Warning"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:09+00:00",
+            "involved_object": {
+                "api_version": "cert-manager.io/v1",
+                "field_path": null,
+                "kind": "CertificateRequest",
+                "name": "argocd-operator-serving-cert-1",
+                "namespace": "argocd-operator-system",
+                "resource_version": "863",
+                "uid": "3d60886d-6351-40e0-8b6f-f81e484e6202"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:09+00:00",
+            "message": "Certificate fetched from issuer successfully",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:09+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "cert-manager-certificaterequests-issuer-selfsigned",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:09+00:00"
+                    }
+                ],
+                "name": "argocd-operator-serving-cert-1.17ba4b08d772ad93",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "867",
+                "self_link": null,
+                "uid": "2c4a3246-f915-4a1b-8247-629cfc0c8357"
+            },
+            "reason": "CertificateIssued",
+            "related": null,
+            "reporting_component": "cert-manager-certificaterequests-issuer-selfsigned",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "cert-manager-certificaterequests-issuer-selfsigned",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:09+00:00",
+            "involved_object": {
+                "api_version": "cert-manager.io/v1",
+                "field_path": null,
+                "kind": "Certificate",
+                "name": "argocd-operator-serving-cert",
+                "namespace": "argocd-operator-system",
+                "resource_version": "835",
+                "uid": "83a884eb-3af4-44e3-a524-7579b463e9c7"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:09+00:00",
+            "message": "Issuing certificate as Secret does not exist",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:09+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "cert-manager-certificates-trigger",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:09+00:00"
+                    }
+                ],
+                "name": "argocd-operator-serving-cert.17ba4b08c83cbec7",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "844",
+                "self_link": null,
+                "uid": "9e1843fb-0983-43af-85b5-c29317a409a3"
+            },
+            "reason": "Issuing",
+            "related": null,
+            "reporting_component": "cert-manager-certificates-trigger",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "cert-manager-certificates-trigger",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:09+00:00",
+            "involved_object": {
+                "api_version": "cert-manager.io/v1",
+                "field_path": null,
+                "kind": "Certificate",
+                "name": "argocd-operator-serving-cert",
+                "namespace": "argocd-operator-system",
+                "resource_version": "840",
+                "uid": "83a884eb-3af4-44e3-a524-7579b463e9c7"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:09+00:00",
+            "message": "Stored new private key in temporary Secret resource \"argocd-operator-serving-cert-m4qnq\"",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:09+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "cert-manager-certificates-key-manager",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:09+00:00"
+                    }
+                ],
+                "name": "argocd-operator-serving-cert.17ba4b08d388d629",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "852",
+                "self_link": null,
+                "uid": "76fd2c66-0d48-49cf-915e-c09b05af99ed"
+            },
+            "reason": "Generated",
+            "related": null,
+            "reporting_component": "cert-manager-certificates-key-manager",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "cert-manager-certificates-key-manager",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:09+00:00",
+            "involved_object": {
+                "api_version": "cert-manager.io/v1",
+                "field_path": null,
+                "kind": "Certificate",
+                "name": "argocd-operator-serving-cert",
+                "namespace": "argocd-operator-system",
+                "resource_version": "853",
+                "uid": "83a884eb-3af4-44e3-a524-7579b463e9c7"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:09+00:00",
+            "message": "Created new CertificateRequest resource \"argocd-operator-serving-cert-1\"",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:09+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "cert-manager-certificates-request-manager",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:09+00:00"
+                    }
+                ],
+                "name": "argocd-operator-serving-cert.17ba4b08d5f3f257",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "858",
+                "self_link": null,
+                "uid": "037064d7-616a-4874-8829-ac6c26fab895"
+            },
+            "reason": "Requested",
+            "related": null,
+            "reporting_component": "cert-manager-certificates-request-manager",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "cert-manager-certificates-request-manager",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:09+00:00",
+            "involved_object": {
+                "api_version": "cert-manager.io/v1",
+                "field_path": null,
+                "kind": "Certificate",
+                "name": "argocd-operator-serving-cert",
+                "namespace": "argocd-operator-system",
+                "resource_version": "853",
+                "uid": "83a884eb-3af4-44e3-a524-7579b463e9c7"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:09+00:00",
+            "message": "The certificate has been successfully issued",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:09+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "cert-manager-certificates-issuing",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:09+00:00"
+                    }
+                ],
+                "name": "argocd-operator-serving-cert.17ba4b08d9689e17",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "870",
+                "self_link": null,
+                "uid": "69580535-4f96-4d68-a6d9-00d340912c66"
+            },
+            "reason": "Issuing",
+            "related": null,
+            "reporting_component": "cert-manager-certificates-issuing",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "cert-manager-certificates-issuing",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:11+00:00",
+            "involved_object": {
+                "api_version": "coordination.k8s.io/v1",
+                "field_path": null,
+                "kind": "Lease",
+                "name": "b674928d.argoproj.io",
+                "namespace": "argocd-operator-system",
+                "resource_version": "883",
+                "uid": "117778bb-be54-4aeb-8b4d-4b6602b3003e"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:11+00:00",
+            "message": "argocd-operator-controller-manager-64bf595bcf-2r2vw_14a2e07a-e02d-49bd-be62-6dab7a1008f0 became leader",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:11+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "manager",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:11+00:00"
+                    }
+                ],
+                "name": "b674928d.argoproj.io.17ba4b091b009e6c",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "884",
+                "self_link": null,
+                "uid": "1584116d-532f-4791-a513-9a38b2aae751"
+            },
+            "reason": "LeaderElection",
+            "related": null,
+            "reporting_component": "argocd-operator-controller-manager-64bf595bcf-2r2vw_14a2e07a-e02d-49bd-be62-6dab7a1008f0",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "argocd-operator-controller-manager-64bf595bcf-2r2vw_14a2e07a-e02d-49bd-be62-6dab7a1008f0",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:45:52+00:00",
+            "involved_object": {
+                "api_version": "coordination.k8s.io/v1",
+                "field_path": null,
+                "kind": "Lease",
+                "name": "b674928d.argoproj.io",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1025",
+                "uid": "117778bb-be54-4aeb-8b4d-4b6602b3003e"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:45:52+00:00",
+            "message": "argocd-operator-controller-manager-78c8cd768f-p7ntd_8abf85c4-2f1e-43e0-96b9-d7fa829751e3 became leader",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:45:52+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "manager",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:45:52+00:00"
+                    }
+                ],
+                "name": "b674928d.argoproj.io.17ba4b12d667e9fe",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1026",
+                "self_link": null,
+                "uid": "6d230cb9-ff27-482f-8ebb-285a9e7d00f2"
+            },
+            "reason": "LeaderElection",
+            "related": null,
+            "reporting_component": "argocd-operator-controller-manager-78c8cd768f-p7ntd_8abf85c4-2f1e-43e0-96b9-d7fa829751e3",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "argocd-operator-controller-manager-78c8cd768f-p7ntd_8abf85c4-2f1e-43e0-96b9-d7fa829751e3",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:00+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": null,
+                "kind": "Pod",
+                "name": "test-cluster-application-controller-0",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1132",
+                "uid": "19e79351-5bc2-4aaa-af31-99cad517e288"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:00+00:00",
+            "message": "Successfully assigned argocd-operator-system/test-cluster-application-controller-0 to acto-0-cluster-3-worker2",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:00+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kube-scheduler",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:00+00:00"
+                    }
+                ],
+                "name": "test-cluster-application-controller-0.17ba4b14bc5f05ec",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1136",
+                "self_link": null,
+                "uid": "0da94529-0ffc-4d52-b816-c9be16983946"
+            },
+            "reason": "Scheduled",
+            "related": null,
+            "reporting_component": "default-scheduler",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "default-scheduler",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:01+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.containers{argocd-application-controller}",
+                "kind": "Pod",
+                "name": "test-cluster-application-controller-0",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1134",
+                "uid": "19e79351-5bc2-4aaa-af31-99cad517e288"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:01+00:00",
+            "message": "Pulling image \"quay.io/argoproj/argocd@sha256:acaf3735256979326c8dcd3106454cee65572c40e191525174cba2bcb35541c5\"",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:01+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:01+00:00"
+                    }
+                ],
+                "name": "test-cluster-application-controller-0.17ba4b14d86e49dd",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1151",
+                "self_link": null,
+                "uid": "43c95749-b1ca-4b7c-bd71-d9bfdfd164e1"
+            },
+            "reason": "Pulling",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker2",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:20+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.containers{argocd-application-controller}",
+                "kind": "Pod",
+                "name": "test-cluster-application-controller-0",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1134",
+                "uid": "19e79351-5bc2-4aaa-af31-99cad517e288"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:20+00:00",
+            "message": "Successfully pulled image \"quay.io/argoproj/argocd@sha256:acaf3735256979326c8dcd3106454cee65572c40e191525174cba2bcb35541c5\" in 19.349s (19.349s including waiting)",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:20+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:20+00:00"
+                    }
+                ],
+                "name": "test-cluster-application-controller-0.17ba4b1959bb1da1",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1227",
+                "self_link": null,
+                "uid": "5db67d91-a51b-4ef2-a0b8-8de5942b6665"
+            },
+            "reason": "Pulled",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker2",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:20+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.containers{argocd-application-controller}",
+                "kind": "Pod",
+                "name": "test-cluster-application-controller-0",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1134",
+                "uid": "19e79351-5bc2-4aaa-af31-99cad517e288"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:20+00:00",
+            "message": "Created container argocd-application-controller",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:20+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:20+00:00"
+                    }
+                ],
+                "name": "test-cluster-application-controller-0.17ba4b195a76db57",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1228",
+                "self_link": null,
+                "uid": "f314610a-bf3e-45dd-aca6-c039f6d5b67d"
+            },
+            "reason": "Created",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker2",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:20+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.containers{argocd-application-controller}",
+                "kind": "Pod",
+                "name": "test-cluster-application-controller-0",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1134",
+                "uid": "19e79351-5bc2-4aaa-af31-99cad517e288"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:20+00:00",
+            "message": "Started container argocd-application-controller",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:20+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:20+00:00"
+                    }
+                ],
+                "name": "test-cluster-application-controller-0.17ba4b195e2f0470",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1229",
+                "self_link": null,
+                "uid": "441e2a3f-19f7-4d80-8610-5821549f17c4"
+            },
+            "reason": "Started",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker2",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:00+00:00",
+            "involved_object": {
+                "api_version": "apps/v1",
+                "field_path": null,
+                "kind": "StatefulSet",
+                "name": "test-cluster-application-controller",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1124",
+                "uid": "10aa26b0-cbae-465a-96f3-83eae9fe4a19"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:00+00:00",
+            "message": "create Pod test-cluster-application-controller-0 in StatefulSet test-cluster-application-controller successful",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:00+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kube-controller-manager",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:00+00:00"
+                    }
+                ],
+                "name": "test-cluster-application-controller.17ba4b14bc032fee",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1133",
+                "self_link": null,
+                "uid": "ce8745d9-3d1b-4e7c-9f55-ac53bb191404"
+            },
+            "reason": "SuccessfulCreate",
+            "related": null,
+            "reporting_component": "statefulset-controller",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "statefulset-controller",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:00+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": null,
+                "kind": "Pod",
+                "name": "test-cluster-redis-6db9d98794-2hn2q",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1098",
+                "uid": "5b395d59-1884-45c2-a599-828597e8d7fe"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:00+00:00",
+            "message": "Successfully assigned argocd-operator-system/test-cluster-redis-6db9d98794-2hn2q to acto-0-cluster-3-worker3",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:00+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kube-scheduler",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:00+00:00"
+                    }
+                ],
+                "name": "test-cluster-redis-6db9d98794-2hn2q.17ba4b14b3cd3059",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1109",
+                "self_link": null,
+                "uid": "a6de42e6-a761-4ea9-a9fc-e433070a4d87"
+            },
+            "reason": "Scheduled",
+            "related": null,
+            "reporting_component": "default-scheduler",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "default-scheduler",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:01+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.containers{redis}",
+                "kind": "Pod",
+                "name": "test-cluster-redis-6db9d98794-2hn2q",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1100",
+                "uid": "5b395d59-1884-45c2-a599-828597e8d7fe"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:01+00:00",
+            "message": "Pulling image \"redis@sha256:8061ca607db2a0c80010aeb5fc9bed0253448bc68711eaa14253a392f6c48280\"",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:01+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:01+00:00"
+                    }
+                ],
+                "name": "test-cluster-redis-6db9d98794-2hn2q.17ba4b14d4787a69",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1148",
+                "self_link": null,
+                "uid": "7f48874b-b95a-436b-9e85-b88a07d5c019"
+            },
+            "reason": "Pulling",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker3",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker3"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:03+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.containers{redis}",
+                "kind": "Pod",
+                "name": "test-cluster-redis-6db9d98794-2hn2q",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1100",
+                "uid": "5b395d59-1884-45c2-a599-828597e8d7fe"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:03+00:00",
+            "message": "Successfully pulled image \"redis@sha256:8061ca607db2a0c80010aeb5fc9bed0253448bc68711eaa14253a392f6c48280\" in 2.041s (2.041s including waiting)",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:03+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:03+00:00"
+                    }
+                ],
+                "name": "test-cluster-redis-6db9d98794-2hn2q.17ba4b154e2b7b20",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1156",
+                "self_link": null,
+                "uid": "ad53e2e2-a31e-4c31-8224-a13c75bc0c67"
+            },
+            "reason": "Pulled",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker3",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker3"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:03+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.containers{redis}",
+                "kind": "Pod",
+                "name": "test-cluster-redis-6db9d98794-2hn2q",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1100",
+                "uid": "5b395d59-1884-45c2-a599-828597e8d7fe"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:03+00:00",
+            "message": "Created container redis",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:03+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:03+00:00"
+                    }
+                ],
+                "name": "test-cluster-redis-6db9d98794-2hn2q.17ba4b154f10a86b",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1157",
+                "self_link": null,
+                "uid": "a27a0469-b33f-4658-ba69-759ce6a6fe31"
+            },
+            "reason": "Created",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker3",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker3"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:03+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.containers{redis}",
+                "kind": "Pod",
+                "name": "test-cluster-redis-6db9d98794-2hn2q",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1100",
+                "uid": "5b395d59-1884-45c2-a599-828597e8d7fe"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:03+00:00",
+            "message": "Started container redis",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:03+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:03+00:00"
+                    }
+                ],
+                "name": "test-cluster-redis-6db9d98794-2hn2q.17ba4b1555f781e4",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1158",
+                "self_link": null,
+                "uid": "aa8cfeac-8613-4adb-aced-cbd3bcb5b973"
+            },
+            "reason": "Started",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker3",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker3"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:00+00:00",
+            "involved_object": {
+                "api_version": "apps/v1",
+                "field_path": null,
+                "kind": "ReplicaSet",
+                "name": "test-cluster-redis-6db9d98794",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1093",
+                "uid": "29e72737-13be-49fb-944d-12eeecc863eb"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:00+00:00",
+            "message": "Created pod: test-cluster-redis-6db9d98794-2hn2q",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:00+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kube-controller-manager",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:00+00:00"
+                    }
+                ],
+                "name": "test-cluster-redis-6db9d98794.17ba4b14b2cc519a",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1103",
+                "self_link": null,
+                "uid": "5af67057-4529-4e23-aff6-26803603f3f8"
+            },
+            "reason": "SuccessfulCreate",
+            "related": null,
+            "reporting_component": "replicaset-controller",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "replicaset-controller",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:00+00:00",
+            "involved_object": {
+                "api_version": "apps/v1",
+                "field_path": null,
+                "kind": "Deployment",
+                "name": "test-cluster-redis",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1091",
+                "uid": "697db934-e6c7-4bd3-af67-b440464d1f80"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:00+00:00",
+            "message": "Scaled up replica set test-cluster-redis-6db9d98794 to 1",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:00+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kube-controller-manager",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:00+00:00"
+                    }
+                ],
+                "name": "test-cluster-redis.17ba4b14b213f852",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1094",
+                "self_link": null,
+                "uid": "871e53d2-897c-4778-87d2-1e82e90b34f6"
+            },
+            "reason": "ScalingReplicaSet",
+            "related": null,
+            "reporting_component": "deployment-controller",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "deployment-controller",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:00+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": null,
+                "kind": "Pod",
+                "name": "test-cluster-repo-server-5d79d65d79-tvzr5",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1105",
+                "uid": "6c8f45f0-6fc9-4211-9bd3-320ea494236c"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:00+00:00",
+            "message": "Successfully assigned argocd-operator-system/test-cluster-repo-server-5d79d65d79-tvzr5 to acto-0-cluster-3-worker3",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:00+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kube-scheduler",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:00+00:00"
+                    }
+                ],
+                "name": "test-cluster-repo-server-5d79d65d79-tvzr5.17ba4b14b60c21ff",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1123",
+                "self_link": null,
+                "uid": "ce6aec5c-6e31-45ad-a8a9-c2e78d32d187"
+            },
+            "reason": "Scheduled",
+            "related": null,
+            "reporting_component": "default-scheduler",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "default-scheduler",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:01+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.initContainers{copyutil}",
+                "kind": "Pod",
+                "name": "test-cluster-repo-server-5d79d65d79-tvzr5",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1114",
+                "uid": "6c8f45f0-6fc9-4211-9bd3-320ea494236c"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:01+00:00",
+            "message": "Pulling image \"quay.io/argoproj/argocd@sha256:acaf3735256979326c8dcd3106454cee65572c40e191525174cba2bcb35541c5\"",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:01+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:01+00:00"
+                    }
+                ],
+                "name": "test-cluster-repo-server-5d79d65d79-tvzr5.17ba4b14d6f54e3c",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1150",
+                "self_link": null,
+                "uid": "35fbeafb-f349-4593-9d17-117fb5c4805f"
+            },
+            "reason": "Pulling",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker3",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker3"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:17+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.initContainers{copyutil}",
+                "kind": "Pod",
+                "name": "test-cluster-repo-server-5d79d65d79-tvzr5",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1114",
+                "uid": "6c8f45f0-6fc9-4211-9bd3-320ea494236c"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:17+00:00",
+            "message": "Successfully pulled image \"quay.io/argoproj/argocd@sha256:acaf3735256979326c8dcd3106454cee65572c40e191525174cba2bcb35541c5\" in 229ms (16.423s including waiting)",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:17+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:17+00:00"
+                    }
+                ],
+                "name": "test-cluster-repo-server-5d79d65d79-tvzr5.17ba4b18a9db3d5f",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1204",
+                "self_link": null,
+                "uid": "cd1fa0a4-01e8-4479-ac02-806fba5a36c9"
+            },
+            "reason": "Pulled",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker3",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker3"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:17+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.initContainers{copyutil}",
+                "kind": "Pod",
+                "name": "test-cluster-repo-server-5d79d65d79-tvzr5",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1114",
+                "uid": "6c8f45f0-6fc9-4211-9bd3-320ea494236c"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:17+00:00",
+            "message": "Created container copyutil",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:17+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:17+00:00"
+                    }
+                ],
+                "name": "test-cluster-repo-server-5d79d65d79-tvzr5.17ba4b18aaf127e1",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1205",
+                "self_link": null,
+                "uid": "cfa77e6d-cd86-4090-9b4c-a1f2ce096425"
+            },
+            "reason": "Created",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker3",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker3"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:17+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.initContainers{copyutil}",
+                "kind": "Pod",
+                "name": "test-cluster-repo-server-5d79d65d79-tvzr5",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1114",
+                "uid": "6c8f45f0-6fc9-4211-9bd3-320ea494236c"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:17+00:00",
+            "message": "Started container copyutil",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:17+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:17+00:00"
+                    }
+                ],
+                "name": "test-cluster-repo-server-5d79d65d79-tvzr5.17ba4b18b06778fb",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1208",
+                "self_link": null,
+                "uid": "87346945-9de8-4080-8c95-faf4e7f7b7a4"
+            },
+            "reason": "Started",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker3",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker3"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:19+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.containers{argocd-repo-server}",
+                "kind": "Pod",
+                "name": "test-cluster-repo-server-5d79d65d79-tvzr5",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1114",
+                "uid": "6c8f45f0-6fc9-4211-9bd3-320ea494236c"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:19+00:00",
+            "message": "Pulling image \"quay.io/argoproj/argocd@sha256:acaf3735256979326c8dcd3106454cee65572c40e191525174cba2bcb35541c5\"",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:19+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:19+00:00"
+                    }
+                ],
+                "name": "test-cluster-repo-server-5d79d65d79-tvzr5.17ba4b191c8c1a30",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1219",
+                "self_link": null,
+                "uid": "605c02ed-e1c6-4108-b20f-4d1a56735316"
+            },
+            "reason": "Pulling",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker3",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker3"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:20+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.containers{argocd-repo-server}",
+                "kind": "Pod",
+                "name": "test-cluster-repo-server-5d79d65d79-tvzr5",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1114",
+                "uid": "6c8f45f0-6fc9-4211-9bd3-320ea494236c"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:20+00:00",
+            "message": "Successfully pulled image \"quay.io/argoproj/argocd@sha256:acaf3735256979326c8dcd3106454cee65572c40e191525174cba2bcb35541c5\" in 402ms (402ms including waiting)",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:20+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:20+00:00"
+                    }
+                ],
+                "name": "test-cluster-repo-server-5d79d65d79-tvzr5.17ba4b1934830f24",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1222",
+                "self_link": null,
+                "uid": "fec4983d-d793-4d86-91c0-f8b26271b04d"
+            },
+            "reason": "Pulled",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker3",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker3"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:20+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.containers{argocd-repo-server}",
+                "kind": "Pod",
+                "name": "test-cluster-repo-server-5d79d65d79-tvzr5",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1114",
+                "uid": "6c8f45f0-6fc9-4211-9bd3-320ea494236c"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:20+00:00",
+            "message": "Created container argocd-repo-server",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:20+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:20+00:00"
+                    }
+                ],
+                "name": "test-cluster-repo-server-5d79d65d79-tvzr5.17ba4b19358c4b06",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1223",
+                "self_link": null,
+                "uid": "651d9c82-e6cc-4108-a260-4e064f196a44"
+            },
+            "reason": "Created",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker3",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker3"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:20+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.containers{argocd-repo-server}",
+                "kind": "Pod",
+                "name": "test-cluster-repo-server-5d79d65d79-tvzr5",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1114",
+                "uid": "6c8f45f0-6fc9-4211-9bd3-320ea494236c"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:20+00:00",
+            "message": "Started container argocd-repo-server",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:20+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:20+00:00"
+                    }
+                ],
+                "name": "test-cluster-repo-server-5d79d65d79-tvzr5.17ba4b193c943f83",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1224",
+                "self_link": null,
+                "uid": "14e34436-d382-4057-a21d-bdf4d3157b7b"
+            },
+            "reason": "Started",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker3",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker3"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:00+00:00",
+            "involved_object": {
+                "api_version": "apps/v1",
+                "field_path": null,
+                "kind": "ReplicaSet",
+                "name": "test-cluster-repo-server-5d79d65d79",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1097",
+                "uid": "101391f0-08ba-4984-9e80-187b73c2026b"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:00+00:00",
+            "message": "Created pod: test-cluster-repo-server-5d79d65d79-tvzr5",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:00+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kube-controller-manager",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:00+00:00"
+                    }
+                ],
+                "name": "test-cluster-repo-server-5d79d65d79.17ba4b14b49ceddc",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1117",
+                "self_link": null,
+                "uid": "67c9d754-bfce-4512-869c-0c268e41b88f"
+            },
+            "reason": "SuccessfulCreate",
+            "related": null,
+            "reporting_component": "replicaset-controller",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "replicaset-controller",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:00+00:00",
+            "involved_object": {
+                "api_version": "apps/v1",
+                "field_path": null,
+                "kind": "Deployment",
+                "name": "test-cluster-repo-server",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1092",
+                "uid": "7af83fd3-4ec4-49e7-813f-77aebcc98ae0"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:00+00:00",
+            "message": "Scaled up replica set test-cluster-repo-server-5d79d65d79 to 1",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:00+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kube-controller-manager",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:00+00:00"
+                    }
+                ],
+                "name": "test-cluster-repo-server.17ba4b14b2cc03ff",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1101",
+                "self_link": null,
+                "uid": "81500175-38d8-4bb8-8a90-fc335e88dfc6"
+            },
+            "reason": "ScalingReplicaSet",
+            "related": null,
+            "reporting_component": "deployment-controller",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "deployment-controller",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:00+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": null,
+                "kind": "Pod",
+                "name": "test-cluster-server-58787ff8c8-plclv",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1102",
+                "uid": "81ae3233-6d6d-4083-b402-67680534d79a"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:00+00:00",
+            "message": "Successfully assigned argocd-operator-system/test-cluster-server-58787ff8c8-plclv to acto-0-cluster-3-worker3",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:00+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kube-scheduler",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:00+00:00"
+                    }
+                ],
+                "name": "test-cluster-server-58787ff8c8-plclv.17ba4b14b608bceb",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1119",
+                "self_link": null,
+                "uid": "01fc1691-97a4-4444-8170-e7d3fd1054b0"
+            },
+            "reason": "Scheduled",
+            "related": null,
+            "reporting_component": "default-scheduler",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "default-scheduler",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:01+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.containers{argocd-server}",
+                "kind": "Pod",
+                "name": "test-cluster-server-58787ff8c8-plclv",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1112",
+                "uid": "81ae3233-6d6d-4083-b402-67680534d79a"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:01+00:00",
+            "message": "Pulling image \"quay.io/argoproj/argocd@sha256:acaf3735256979326c8dcd3106454cee65572c40e191525174cba2bcb35541c5\"",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:01+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:01+00:00"
+                    }
+                ],
+                "name": "test-cluster-server-58787ff8c8-plclv.17ba4b14d6a50674",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1149",
+                "self_link": null,
+                "uid": "d2cdbe84-b377-4d9a-8ca1-8822206407f5"
+            },
+            "reason": "Pulling",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker3",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker3"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:17+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.containers{argocd-server}",
+                "kind": "Pod",
+                "name": "test-cluster-server-58787ff8c8-plclv",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1112",
+                "uid": "81ae3233-6d6d-4083-b402-67680534d79a"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:17+00:00",
+            "message": "Successfully pulled image \"quay.io/argoproj/argocd@sha256:acaf3735256979326c8dcd3106454cee65572c40e191525174cba2bcb35541c5\" in 14.193s (16.199s including waiting)",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:17+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:17+00:00"
+                    }
+                ],
+                "name": "test-cluster-server-58787ff8c8-plclv.17ba4b189c30f860",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1195",
+                "self_link": null,
+                "uid": "31f4951b-f21f-4f73-a3a5-87a909a448fc"
+            },
+            "reason": "Pulled",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker3",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker3"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:17+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.containers{argocd-server}",
+                "kind": "Pod",
+                "name": "test-cluster-server-58787ff8c8-plclv",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1112",
+                "uid": "81ae3233-6d6d-4083-b402-67680534d79a"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:17+00:00",
+            "message": "Created container argocd-server",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:17+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:17+00:00"
+                    }
+                ],
+                "name": "test-cluster-server-58787ff8c8-plclv.17ba4b189d3e1270",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1196",
+                "self_link": null,
+                "uid": "6c9d4b72-8e84-41b3-b0ee-f5cf0bf52cde"
+            },
+            "reason": "Created",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker3",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker3"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:17+00:00",
+            "involved_object": {
+                "api_version": "v1",
+                "field_path": "spec.containers{argocd-server}",
+                "kind": "Pod",
+                "name": "test-cluster-server-58787ff8c8-plclv",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1112",
+                "uid": "81ae3233-6d6d-4083-b402-67680534d79a"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:17+00:00",
+            "message": "Started container argocd-server",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:17+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:reportingInstance": {},
+                            "f:source": {
+                                "f:component": {},
+                                "f:host": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kubelet",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:17+00:00"
+                    }
+                ],
+                "name": "test-cluster-server-58787ff8c8-plclv.17ba4b18a3177166",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1198",
+                "self_link": null,
+                "uid": "a16b6f21-a3fa-4789-813a-73e3db98a4f9"
+            },
+            "reason": "Started",
+            "related": null,
+            "reporting_component": "kubelet",
+            "reporting_instance": "acto-0-cluster-3-worker3",
+            "series": null,
+            "source": {
+                "component": "kubelet",
+                "host": "acto-0-cluster-3-worker3"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:00+00:00",
+            "involved_object": {
+                "api_version": "apps/v1",
+                "field_path": null,
+                "kind": "ReplicaSet",
+                "name": "test-cluster-server-58787ff8c8",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1099",
+                "uid": "7d73f95d-68b0-4ac3-bda9-a477f923ec3d"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:00+00:00",
+            "message": "Created pod: test-cluster-server-58787ff8c8-plclv",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:00+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kube-controller-manager",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:00+00:00"
+                    }
+                ],
+                "name": "test-cluster-server-58787ff8c8.17ba4b14b3efc249",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1110",
+                "self_link": null,
+                "uid": "a663f41e-18d9-456b-abc5-d8a27f061b70"
+            },
+            "reason": "SuccessfulCreate",
+            "related": null,
+            "reporting_component": "replicaset-controller",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "replicaset-controller",
+                "host": null
+            },
+            "type": "Normal"
+        },
+        {
+            "action": null,
+            "api_version": null,
+            "count": 1,
+            "event_time": null,
+            "first_timestamp": "2024-03-06T21:46:00+00:00",
+            "involved_object": {
+                "api_version": "apps/v1",
+                "field_path": null,
+                "kind": "Deployment",
+                "name": "test-cluster-server",
+                "namespace": "argocd-operator-system",
+                "resource_version": "1096",
+                "uid": "75b03409-30da-44ca-94bb-e8555a824145"
+            },
+            "kind": null,
+            "last_timestamp": "2024-03-06T21:46:00+00:00",
+            "message": "Scaled up replica set test-cluster-server-58787ff8c8 to 1",
+            "metadata": {
+                "annotations": null,
+                "creation_timestamp": "2024-03-06T21:46:00+00:00",
+                "deletion_grace_period_seconds": null,
+                "deletion_timestamp": null,
+                "finalizers": null,
+                "generate_name": null,
+                "generation": null,
+                "labels": null,
+                "managed_fields": [
+                    {
+                        "api_version": "v1",
+                        "fields_type": "FieldsV1",
+                        "fields_v1": {
+                            "f:count": {},
+                            "f:firstTimestamp": {},
+                            "f:involvedObject": {},
+                            "f:lastTimestamp": {},
+                            "f:message": {},
+                            "f:reason": {},
+                            "f:reportingComponent": {},
+                            "f:source": {
+                                "f:component": {}
+                            },
+                            "f:type": {}
+                        },
+                        "manager": "kube-controller-manager",
+                        "operation": "Update",
+                        "subresource": null,
+                        "time": "2024-03-06T21:46:00+00:00"
+                    }
+                ],
+                "name": "test-cluster-server.17ba4b14b358bb32",
+                "namespace": "argocd-operator-system",
+                "owner_references": null,
+                "resource_version": "1108",
+                "self_link": null,
+                "uid": "5ba3d376-069f-4a35-965a-c11b0a8f7518"
+            },
+            "reason": "ScalingReplicaSet",
+            "related": null,
+            "reporting_component": "deployment-controller",
+            "reporting_instance": "",
+            "series": null,
+            "source": {
+                "component": "deployment-controller",
+                "host": null
+            },
+            "type": "Normal"
+        }
+    ],
+    "kind": "EventList",
+    "metadata": {
+        "_continue": null,
+        "remaining_item_count": null,
+        "resource_version": "1382",
+        "self_link": null
+    }
+}

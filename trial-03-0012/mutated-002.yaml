@@ -1,0 +1,62 @@
+apiVersion: argoproj.io/v1beta1
+kind: ArgoCD
+metadata:
+  labels:
+    example: basic
+  name: test-cluster
+spec:
+  prometheus:
+    enabled: true
+    host: null
+    ingress:
+      annotations:
+        ACTOKEY: ACTOKEY
+      enabled: true
+      ingressClassName: ACTOKEY
+      path: ACTOKEY
+      tls:
+      - hosts:
+        - ACTOKEY
+        - ACTOKEY
+        - ACTOKEY
+        - ACTOKEY
+        secretName: ACTOKEY
+      - hosts:
+        - ACTOKEY
+        - ACTOKEY
+        - ACTOKEY
+        - ACTOKEY
+        secretName: ACTOKEY
+      - hosts:
+        - ACTOKEY
+        secretName: ACTOKEY
+      - hosts: null
+        secretName: ACTOKEY
+      - hosts:
+        - ACTOKEY
+        - ACTOKEY
+        secretName: ACTOKEY
+    route:
+      annotations: null
+      enabled: true
+      labels:
+        ACTOKEY: ACTOKEY
+      path: ACTOKEY
+      tls:
+        caCertificate: ACTOKEY
+        certificate: ACTOKEY
+        destinationCACertificate: ACTOKEY
+        insecureEdgeTerminationPolicy: ACTOKEY
+        key: ACTOKEY
+        termination: ACTOKEY
+      wildcardPolicy: ACTOKEY
+    size: 2
+  repo:
+    sidecarContainers:
+    - name: hojlupteqv
+      readinessProbe:
+        httpGet:
+          httpHeaders:
+          - name: INVALID_NAME
+            value: tzfyomvgnp
+          port: 2

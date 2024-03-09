@@ -1,0 +1,24 @@
+2024-03-06T21:49:25Z	INFO	Reconciling ArgoCD	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "c34d4785-018e-4fae-bb30-01592e0d5c9c", "namespace": "argocd-operator-system", "name": "test-cluster"}
+2024-03-06T21:49:25Z	INFO	controller_argocd	reconciling SSO
+2024-03-06T21:49:25Z	INFO	controller_argocd	reconciling status
+2024-03-06T21:49:25Z	INFO	controller_argocd	reconciling roles
+2024-03-06T21:49:25Z	INFO	controller_argocd	reconciling roles for source namespaces
+2024-03-06T21:49:25Z	INFO	controller_argocd	performing cleanup for source namespaces
+2024-03-06T21:49:25Z	INFO	controller_argocd	reconciling rolebindings
+2024-03-06T21:49:25Z	INFO	controller_argocd	reconciling service accounts
+2024-03-06T21:49:25Z	INFO	controller_argocd	reconciling certificate authority
+2024-03-06T21:49:25Z	INFO	controller_argocd	reconciling CA secret
+2024-03-06T21:49:25Z	INFO	controller_argocd	reconciling CA config map
+2024-03-06T21:49:25Z	INFO	controller_argocd	reconciling secrets
+2024-03-06T21:49:25Z	INFO	controller_argocd	reconciling config maps
+2024-03-06T21:49:25Z	INFO	controller_argocd	Using default resource tracking method 'label'
+2024-03-06T21:49:25Z	INFO	controller_argocd	reconciling services
+2024-03-06T21:49:25Z	INFO	controller_argocd	reconciling deployments
+2024-03-06T21:49:25Z	ERROR	Reconciler error	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "c34d4785-018e-4fae-bb30-01592e0d5c9c", "error": "Deployment.apps \"test-cluster-repo-server\" is invalid: [spec.template.spec.containers[1].image: Required value, spec.template.spec.containers[1].readinessProbe.httpGet.httpHeaders: Invalid value: \"INVALID_NAME\": a valid HTTP header must consist of alphanumeric characters or '-' (e.g. 'X-Header-Name', regex used for validation is '[-A-Za-z0-9]+')]"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).reconcileHandler
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:329
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:266
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:227
+2024-03-06T21:50:25Z	INFO	conversion-webhook	v1beta1 to v1alpha1 conversion requested.

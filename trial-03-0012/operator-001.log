@@ -1,0 +1,323 @@
+2024-03-06T21:47:22Z	INFO	controller_argocd	reconciling SSO
+2024-03-06T21:47:22Z	INFO	controller_argocd	reconciling status
+2024-03-06T21:47:22Z	INFO	conversion-webhook	v1beta1 to v1alpha1 conversion requested.
+2024-03-06T21:47:22Z	INFO	controller_argocd	reconciling roles
+2024-03-06T21:47:22Z	INFO	controller_argocd	reconciling roles for source namespaces
+2024-03-06T21:47:22Z	INFO	controller_argocd	performing cleanup for source namespaces
+2024-03-06T21:47:22Z	INFO	controller_argocd	reconciling rolebindings
+2024-03-06T21:47:22Z	INFO	controller_argocd	reconciling service accounts
+2024-03-06T21:47:22Z	INFO	controller_argocd	reconciling certificate authority
+2024-03-06T21:47:22Z	INFO	controller_argocd	reconciling CA secret
+2024-03-06T21:47:22Z	INFO	controller_argocd	reconciling CA config map
+2024-03-06T21:47:22Z	INFO	controller_argocd	reconciling secrets
+2024-03-06T21:47:22Z	INFO	controller_argocd	reconciling config maps
+2024-03-06T21:47:22Z	INFO	controller_argocd	Using default resource tracking method 'label'
+2024-03-06T21:47:22Z	INFO	controller_argocd	reconciling services
+2024-03-06T21:47:22Z	INFO	controller_argocd	reconciling deployments
+2024-03-06T21:47:22Z	ERROR	Reconciler error	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "34f17403-a8c6-420f-a142-5a7765a5442b", "error": "Deployment.apps \"test-cluster-repo-server\" is invalid: [spec.template.spec.containers[1].image: Required value, spec.template.spec.containers[1].readinessProbe.httpGet.httpHeaders: Invalid value: \"INVALID_NAME\": a valid HTTP header must consist of alphanumeric characters or '-' (e.g. 'X-Header-Name', regex used for validation is '[-A-Za-z0-9]+')]"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).reconcileHandler
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:329
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:266
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:227
+2024-03-06T21:47:22Z	INFO	Reconciling ArgoCD	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "fe689d2d-3f4b-464a-b9d4-dc17b50da7ca", "namespace": "argocd-operator-system", "name": "test-cluster"}
+2024-03-06T21:47:22Z	INFO	controller_argocd	reconciling SSO
+2024-03-06T21:47:22Z	INFO	controller_argocd	reconciling status
+2024-03-06T21:47:22Z	INFO	controller_argocd	reconciling roles
+2024-03-06T21:47:22Z	INFO	controller_argocd	reconciling roles for source namespaces
+2024-03-06T21:47:22Z	INFO	controller_argocd	performing cleanup for source namespaces
+2024-03-06T21:47:22Z	INFO	controller_argocd	reconciling rolebindings
+2024-03-06T21:47:22Z	INFO	controller_argocd	reconciling service accounts
+2024-03-06T21:47:22Z	INFO	controller_argocd	reconciling certificate authority
+2024-03-06T21:47:22Z	INFO	controller_argocd	reconciling CA secret
+2024-03-06T21:47:22Z	INFO	controller_argocd	reconciling CA config map
+2024-03-06T21:47:22Z	INFO	controller_argocd	reconciling secrets
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling config maps
+2024-03-06T21:47:23Z	INFO	controller_argocd	Using default resource tracking method 'label'
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling services
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling deployments
+2024-03-06T21:47:23Z	ERROR	Reconciler error	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "fe689d2d-3f4b-464a-b9d4-dc17b50da7ca", "error": "Deployment.apps \"test-cluster-repo-server\" is invalid: [spec.template.spec.containers[1].image: Required value, spec.template.spec.containers[1].readinessProbe.httpGet.httpHeaders: Invalid value: \"INVALID_NAME\": a valid HTTP header must consist of alphanumeric characters or '-' (e.g. 'X-Header-Name', regex used for validation is '[-A-Za-z0-9]+')]"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).reconcileHandler
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:329
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:266
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:227
+2024-03-06T21:47:23Z	INFO	Reconciling ArgoCD	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "21ef0f0f-44d1-4711-bc72-a37f0aa4a3fe", "namespace": "argocd-operator-system", "name": "test-cluster"}
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling SSO
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling status
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling roles
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling roles for source namespaces
+2024-03-06T21:47:23Z	INFO	controller_argocd	performing cleanup for source namespaces
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling rolebindings
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling service accounts
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling certificate authority
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling CA secret
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling CA config map
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling secrets
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling config maps
+2024-03-06T21:47:23Z	INFO	controller_argocd	Using default resource tracking method 'label'
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling services
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling deployments
+2024-03-06T21:47:23Z	ERROR	Reconciler error	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "21ef0f0f-44d1-4711-bc72-a37f0aa4a3fe", "error": "Deployment.apps \"test-cluster-repo-server\" is invalid: [spec.template.spec.containers[1].image: Required value, spec.template.spec.containers[1].readinessProbe.httpGet.httpHeaders: Invalid value: \"INVALID_NAME\": a valid HTTP header must consist of alphanumeric characters or '-' (e.g. 'X-Header-Name', regex used for validation is '[-A-Za-z0-9]+')]"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).reconcileHandler
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:329
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:266
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:227
+2024-03-06T21:47:23Z	INFO	Reconciling ArgoCD	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "45ef02f2-2b7b-4014-a959-7996baabaf25", "namespace": "argocd-operator-system", "name": "test-cluster"}
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling SSO
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling status
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling roles
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling roles for source namespaces
+2024-03-06T21:47:23Z	INFO	controller_argocd	performing cleanup for source namespaces
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling rolebindings
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling service accounts
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling certificate authority
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling CA secret
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling CA config map
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling secrets
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling config maps
+2024-03-06T21:47:23Z	INFO	controller_argocd	Using default resource tracking method 'label'
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling services
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling deployments
+2024-03-06T21:47:23Z	ERROR	Reconciler error	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "45ef02f2-2b7b-4014-a959-7996baabaf25", "error": "Deployment.apps \"test-cluster-repo-server\" is invalid: [spec.template.spec.containers[1].image: Required value, spec.template.spec.containers[1].readinessProbe.httpGet.httpHeaders: Invalid value: \"INVALID_NAME\": a valid HTTP header must consist of alphanumeric characters or '-' (e.g. 'X-Header-Name', regex used for validation is '[-A-Za-z0-9]+')]"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).reconcileHandler
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:329
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:266
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:227
+2024-03-06T21:47:23Z	INFO	Reconciling ArgoCD	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "e8bdf60a-5fdc-4fa1-8780-7852ff6323a4", "namespace": "argocd-operator-system", "name": "test-cluster"}
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling SSO
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling status
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling roles
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling roles for source namespaces
+2024-03-06T21:47:23Z	INFO	controller_argocd	performing cleanup for source namespaces
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling rolebindings
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling service accounts
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling certificate authority
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling CA secret
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling CA config map
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling secrets
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling config maps
+2024-03-06T21:47:23Z	INFO	controller_argocd	Using default resource tracking method 'label'
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling services
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling deployments
+2024-03-06T21:47:23Z	ERROR	Reconciler error	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "e8bdf60a-5fdc-4fa1-8780-7852ff6323a4", "error": "Deployment.apps \"test-cluster-repo-server\" is invalid: [spec.template.spec.containers[1].image: Required value, spec.template.spec.containers[1].readinessProbe.httpGet.httpHeaders: Invalid value: \"INVALID_NAME\": a valid HTTP header must consist of alphanumeric characters or '-' (e.g. 'X-Header-Name', regex used for validation is '[-A-Za-z0-9]+')]"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).reconcileHandler
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:329
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:266
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:227
+2024-03-06T21:47:23Z	INFO	Reconciling ArgoCD	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "82949a07-1624-4115-97be-32f32994df8f", "namespace": "argocd-operator-system", "name": "test-cluster"}
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling SSO
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling status
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling roles
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling roles for source namespaces
+2024-03-06T21:47:23Z	INFO	controller_argocd	performing cleanup for source namespaces
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling rolebindings
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling service accounts
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling certificate authority
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling CA secret
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling CA config map
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling secrets
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling config maps
+2024-03-06T21:47:23Z	INFO	controller_argocd	Using default resource tracking method 'label'
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling services
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling deployments
+2024-03-06T21:47:23Z	ERROR	Reconciler error	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "82949a07-1624-4115-97be-32f32994df8f", "error": "Deployment.apps \"test-cluster-repo-server\" is invalid: [spec.template.spec.containers[1].image: Required value, spec.template.spec.containers[1].readinessProbe.httpGet.httpHeaders: Invalid value: \"INVALID_NAME\": a valid HTTP header must consist of alphanumeric characters or '-' (e.g. 'X-Header-Name', regex used for validation is '[-A-Za-z0-9]+')]"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).reconcileHandler
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:329
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:266
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:227
+2024-03-06T21:47:23Z	INFO	Reconciling ArgoCD	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "52c8f2cd-d3e1-40f3-b7a2-d443cc2addc5", "namespace": "argocd-operator-system", "name": "test-cluster"}
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling SSO
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling status
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling roles
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling roles for source namespaces
+2024-03-06T21:47:23Z	INFO	controller_argocd	performing cleanup for source namespaces
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling rolebindings
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling service accounts
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling certificate authority
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling CA secret
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling CA config map
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling secrets
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling config maps
+2024-03-06T21:47:23Z	INFO	controller_argocd	Using default resource tracking method 'label'
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling services
+2024-03-06T21:47:23Z	INFO	controller_argocd	reconciling deployments
+2024-03-06T21:47:23Z	ERROR	Reconciler error	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "52c8f2cd-d3e1-40f3-b7a2-d443cc2addc5", "error": "Deployment.apps \"test-cluster-repo-server\" is invalid: [spec.template.spec.containers[1].image: Required value, spec.template.spec.containers[1].readinessProbe.httpGet.httpHeaders: Invalid value: \"INVALID_NAME\": a valid HTTP header must consist of alphanumeric characters or '-' (e.g. 'X-Header-Name', regex used for validation is '[-A-Za-z0-9]+')]"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).reconcileHandler
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:329
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:266
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:227
+2024-03-06T21:47:24Z	INFO	Reconciling ArgoCD	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "2cdbcabd-2752-4b7b-a5c8-6a6b81483215", "namespace": "argocd-operator-system", "name": "test-cluster"}
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling SSO
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling status
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling roles
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling roles for source namespaces
+2024-03-06T21:47:24Z	INFO	controller_argocd	performing cleanup for source namespaces
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling rolebindings
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling service accounts
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling certificate authority
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling CA secret
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling CA config map
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling secrets
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling config maps
+2024-03-06T21:47:24Z	INFO	controller_argocd	Using default resource tracking method 'label'
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling services
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling deployments
+2024-03-06T21:47:24Z	ERROR	Reconciler error	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "2cdbcabd-2752-4b7b-a5c8-6a6b81483215", "error": "Deployment.apps \"test-cluster-repo-server\" is invalid: [spec.template.spec.containers[1].image: Required value, spec.template.spec.containers[1].readinessProbe.httpGet.httpHeaders: Invalid value: \"INVALID_NAME\": a valid HTTP header must consist of alphanumeric characters or '-' (e.g. 'X-Header-Name', regex used for validation is '[-A-Za-z0-9]+')]"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).reconcileHandler
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:329
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:266
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:227
+2024-03-06T21:47:24Z	INFO	Reconciling ArgoCD	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "ddcc4043-f2f9-4f4b-93c7-02df6c232f44", "namespace": "argocd-operator-system", "name": "test-cluster"}
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling SSO
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling status
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling roles
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling roles for source namespaces
+2024-03-06T21:47:24Z	INFO	controller_argocd	performing cleanup for source namespaces
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling rolebindings
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling service accounts
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling certificate authority
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling CA secret
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling CA config map
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling secrets
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling config maps
+2024-03-06T21:47:24Z	INFO	controller_argocd	Using default resource tracking method 'label'
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling services
+2024-03-06T21:47:24Z	INFO	controller_argocd	reconciling deployments
+2024-03-06T21:47:24Z	ERROR	Reconciler error	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "ddcc4043-f2f9-4f4b-93c7-02df6c232f44", "error": "Deployment.apps \"test-cluster-repo-server\" is invalid: [spec.template.spec.containers[1].image: Required value, spec.template.spec.containers[1].readinessProbe.httpGet.httpHeaders: Invalid value: \"INVALID_NAME\": a valid HTTP header must consist of alphanumeric characters or '-' (e.g. 'X-Header-Name', regex used for validation is '[-A-Za-z0-9]+')]"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).reconcileHandler
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:329
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:266
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:227
+2024-03-06T21:47:26Z	INFO	Reconciling ArgoCD	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "91a8e29f-99b5-480d-8703-c93b64150ee3", "namespace": "argocd-operator-system", "name": "test-cluster"}
+2024-03-06T21:47:26Z	INFO	controller_argocd	reconciling SSO
+2024-03-06T21:47:26Z	INFO	controller_argocd	reconciling status
+2024-03-06T21:47:26Z	INFO	controller_argocd	reconciling roles
+2024-03-06T21:47:26Z	INFO	controller_argocd	reconciling roles for source namespaces
+2024-03-06T21:47:26Z	INFO	controller_argocd	performing cleanup for source namespaces
+2024-03-06T21:47:26Z	INFO	controller_argocd	reconciling rolebindings
+2024-03-06T21:47:26Z	INFO	controller_argocd	reconciling service accounts
+2024-03-06T21:47:26Z	INFO	controller_argocd	reconciling certificate authority
+2024-03-06T21:47:26Z	INFO	controller_argocd	reconciling CA secret
+2024-03-06T21:47:26Z	INFO	controller_argocd	reconciling CA config map
+2024-03-06T21:47:26Z	INFO	controller_argocd	reconciling secrets
+2024-03-06T21:47:26Z	INFO	controller_argocd	reconciling config maps
+2024-03-06T21:47:26Z	INFO	controller_argocd	Using default resource tracking method 'label'
+2024-03-06T21:47:26Z	INFO	controller_argocd	reconciling services
+2024-03-06T21:47:26Z	INFO	controller_argocd	reconciling deployments
+2024-03-06T21:47:26Z	ERROR	Reconciler error	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "91a8e29f-99b5-480d-8703-c93b64150ee3", "error": "Deployment.apps \"test-cluster-repo-server\" is invalid: [spec.template.spec.containers[1].image: Required value, spec.template.spec.containers[1].readinessProbe.httpGet.httpHeaders: Invalid value: \"INVALID_NAME\": a valid HTTP header must consist of alphanumeric characters or '-' (e.g. 'X-Header-Name', regex used for validation is '[-A-Za-z0-9]+')]"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).reconcileHandler
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:329
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:266
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:227
+2024-03-06T21:47:28Z	INFO	Reconciling ArgoCD	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "babc5996-7525-4811-8201-3798e4bdaf35", "namespace": "argocd-operator-system", "name": "test-cluster"}
+2024-03-06T21:47:28Z	INFO	controller_argocd	reconciling SSO
+2024-03-06T21:47:28Z	INFO	controller_argocd	reconciling status
+2024-03-06T21:47:28Z	INFO	controller_argocd	reconciling roles
+2024-03-06T21:47:28Z	INFO	controller_argocd	reconciling roles for source namespaces
+2024-03-06T21:47:28Z	INFO	controller_argocd	performing cleanup for source namespaces
+2024-03-06T21:47:28Z	INFO	controller_argocd	reconciling rolebindings
+2024-03-06T21:47:28Z	INFO	controller_argocd	reconciling service accounts
+2024-03-06T21:47:28Z	INFO	controller_argocd	reconciling certificate authority
+2024-03-06T21:47:28Z	INFO	controller_argocd	reconciling CA secret
+2024-03-06T21:47:28Z	INFO	controller_argocd	reconciling CA config map
+2024-03-06T21:47:28Z	INFO	controller_argocd	reconciling secrets
+2024-03-06T21:47:28Z	INFO	controller_argocd	reconciling config maps
+2024-03-06T21:47:28Z	INFO	controller_argocd	Using default resource tracking method 'label'
+2024-03-06T21:47:28Z	INFO	controller_argocd	reconciling services
+2024-03-06T21:47:28Z	INFO	controller_argocd	reconciling deployments
+2024-03-06T21:47:28Z	ERROR	Reconciler error	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "babc5996-7525-4811-8201-3798e4bdaf35", "error": "Deployment.apps \"test-cluster-repo-server\" is invalid: [spec.template.spec.containers[1].image: Required value, spec.template.spec.containers[1].readinessProbe.httpGet.httpHeaders: Invalid value: \"INVALID_NAME\": a valid HTTP header must consist of alphanumeric characters or '-' (e.g. 'X-Header-Name', regex used for validation is '[-A-Za-z0-9]+')]"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).reconcileHandler
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:329
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:266
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:227
+2024-03-06T21:47:34Z	INFO	Reconciling ArgoCD	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "2672283e-037b-4a87-882f-f23aa1710927", "namespace": "argocd-operator-system", "name": "test-cluster"}
+2024-03-06T21:47:34Z	INFO	controller_argocd	reconciling SSO
+2024-03-06T21:47:34Z	INFO	controller_argocd	reconciling status
+2024-03-06T21:47:34Z	INFO	controller_argocd	reconciling roles
+2024-03-06T21:47:34Z	INFO	controller_argocd	reconciling roles for source namespaces
+2024-03-06T21:47:34Z	INFO	controller_argocd	performing cleanup for source namespaces
+2024-03-06T21:47:34Z	INFO	controller_argocd	reconciling rolebindings
+2024-03-06T21:47:34Z	INFO	controller_argocd	reconciling service accounts
+2024-03-06T21:47:34Z	INFO	controller_argocd	reconciling certificate authority
+2024-03-06T21:47:34Z	INFO	controller_argocd	reconciling CA secret
+2024-03-06T21:47:34Z	INFO	controller_argocd	reconciling CA config map
+2024-03-06T21:47:34Z	INFO	controller_argocd	reconciling secrets
+2024-03-06T21:47:34Z	INFO	controller_argocd	reconciling config maps
+2024-03-06T21:47:34Z	INFO	controller_argocd	Using default resource tracking method 'label'
+2024-03-06T21:47:34Z	INFO	controller_argocd	reconciling services
+2024-03-06T21:47:34Z	INFO	controller_argocd	reconciling deployments
+2024-03-06T21:47:34Z	ERROR	Reconciler error	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "2672283e-037b-4a87-882f-f23aa1710927", "error": "Deployment.apps \"test-cluster-repo-server\" is invalid: [spec.template.spec.containers[1].image: Required value, spec.template.spec.containers[1].readinessProbe.httpGet.httpHeaders: Invalid value: \"INVALID_NAME\": a valid HTTP header must consist of alphanumeric characters or '-' (e.g. 'X-Header-Name', regex used for validation is '[-A-Za-z0-9]+')]"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).reconcileHandler
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:329
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:266
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:227
+2024-03-06T21:47:44Z	INFO	Reconciling ArgoCD	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "7bfb2be4-5585-42d5-8cbc-ed59f3893f0d", "namespace": "argocd-operator-system", "name": "test-cluster"}
+2024-03-06T21:47:44Z	INFO	controller_argocd	reconciling SSO
+2024-03-06T21:47:44Z	INFO	controller_argocd	reconciling status
+2024-03-06T21:47:44Z	INFO	controller_argocd	reconciling roles
+2024-03-06T21:47:44Z	INFO	controller_argocd	reconciling roles for source namespaces
+2024-03-06T21:47:44Z	INFO	controller_argocd	performing cleanup for source namespaces
+2024-03-06T21:47:44Z	INFO	controller_argocd	reconciling rolebindings
+2024-03-06T21:47:44Z	INFO	controller_argocd	reconciling service accounts
+2024-03-06T21:47:44Z	INFO	controller_argocd	reconciling certificate authority
+2024-03-06T21:47:44Z	INFO	controller_argocd	reconciling CA secret
+2024-03-06T21:47:44Z	INFO	controller_argocd	reconciling CA config map
+2024-03-06T21:47:44Z	INFO	controller_argocd	reconciling secrets
+2024-03-06T21:47:44Z	INFO	controller_argocd	reconciling config maps
+2024-03-06T21:47:44Z	INFO	controller_argocd	Using default resource tracking method 'label'
+2024-03-06T21:47:44Z	INFO	controller_argocd	reconciling services
+2024-03-06T21:47:44Z	INFO	controller_argocd	reconciling deployments
+2024-03-06T21:47:44Z	ERROR	Reconciler error	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "7bfb2be4-5585-42d5-8cbc-ed59f3893f0d", "error": "Deployment.apps \"test-cluster-repo-server\" is invalid: [spec.template.spec.containers[1].image: Required value, spec.template.spec.containers[1].readinessProbe.httpGet.httpHeaders: Invalid value: \"INVALID_NAME\": a valid HTTP header must consist of alphanumeric characters or '-' (e.g. 'X-Header-Name', regex used for validation is '[-A-Za-z0-9]+')]"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).reconcileHandler
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:329
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:266
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:227
+2024-03-06T21:48:05Z	INFO	Reconciling ArgoCD	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "4b76696c-7114-49f3-bfbe-3f26832a7263", "namespace": "argocd-operator-system", "name": "test-cluster"}
+2024-03-06T21:48:05Z	INFO	controller_argocd	reconciling SSO
+2024-03-06T21:48:05Z	INFO	controller_argocd	reconciling status
+2024-03-06T21:48:05Z	INFO	controller_argocd	reconciling roles
+2024-03-06T21:48:05Z	INFO	controller_argocd	reconciling roles for source namespaces
+2024-03-06T21:48:05Z	INFO	controller_argocd	performing cleanup for source namespaces
+2024-03-06T21:48:05Z	INFO	controller_argocd	reconciling rolebindings
+2024-03-06T21:48:05Z	INFO	controller_argocd	reconciling service accounts
+2024-03-06T21:48:05Z	INFO	controller_argocd	reconciling certificate authority
+2024-03-06T21:48:05Z	INFO	controller_argocd	reconciling CA secret
+2024-03-06T21:48:05Z	INFO	controller_argocd	reconciling CA config map
+2024-03-06T21:48:05Z	INFO	controller_argocd	reconciling secrets
+2024-03-06T21:48:05Z	INFO	controller_argocd	reconciling config maps
+2024-03-06T21:48:05Z	INFO	controller_argocd	Using default resource tracking method 'label'
+2024-03-06T21:48:05Z	INFO	controller_argocd	reconciling services
+2024-03-06T21:48:05Z	INFO	controller_argocd	reconciling deployments
+2024-03-06T21:48:05Z	ERROR	Reconciler error	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "4b76696c-7114-49f3-bfbe-3f26832a7263", "error": "Deployment.apps \"test-cluster-repo-server\" is invalid: [spec.template.spec.containers[1].image: Required value, spec.template.spec.containers[1].readinessProbe.httpGet.httpHeaders: Invalid value: \"INVALID_NAME\": a valid HTTP header must consist of alphanumeric characters or '-' (e.g. 'X-Header-Name', regex used for validation is '[-A-Za-z0-9]+')]"}
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).reconcileHandler
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:329
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).processNextWorkItem
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:266
+sigs.k8s.io/controller-runtime/pkg/internal/controller.(*Controller).Start.func2.2
+	/go/pkg/mod/sigs.k8s.io/controller-runtime@v0.16.3/pkg/internal/controller/controller.go:227
+2024-03-06T21:48:23Z	INFO	conversion-webhook	v1beta1 to v1alpha1 conversion requested.

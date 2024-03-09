@@ -1,0 +1,306 @@
+2024-03-06T21:45:25Z	INFO	setup	Go Version: go1.20.11
+2024-03-06T21:45:25Z	INFO	setup	Go OS/Arch: linux/amd64
+2024-03-06T21:45:25Z	INFO	setup	Version of operator-sdk: v0.18.2
+2024-03-06T21:45:25Z	INFO	setup	Version of argocd-operator: 0.8.0
+2024-03-06T21:45:25Z	INFO	setup	Watching namespace ""
+2024-03-06T21:45:25Z	INFO	setup	Registering Components.
+2024-03-06T21:45:25Z	INFO	controller-runtime.builder	skip registering a mutating webhook, object does not implement admission.Defaulter or WithDefaulter wasn't called	{"GVK": "argoproj.io/v1beta1, Kind=ArgoCD"}
+2024-03-06T21:45:25Z	INFO	controller-runtime.builder	skip registering a validating webhook, object does not implement admission.Validator or WithValidator wasn't called	{"GVK": "argoproj.io/v1beta1, Kind=ArgoCD"}
+2024-03-06T21:45:25Z	INFO	controller-runtime.webhook	Registering webhook	{"path": "/convert"}
+2024-03-06T21:45:25Z	INFO	controller-runtime.builder	Conversion webhook enabled	{"GVK": "argoproj.io/v1beta1, Kind=ArgoCD"}
+2024-03-06T21:45:25Z	INFO	setup	starting manager
+2024-03-06T21:45:25Z	INFO	controller-runtime.metrics	Starting metrics server
+2024-03-06T21:45:25Z	INFO	controller-runtime.metrics	Serving metrics server	{"bindAddress": ":8080", "secure": false}
+2024-03-06T21:45:25Z	INFO	starting server	{"kind": "health probe", "addr": "[::]:8081"}
+2024-03-06T21:45:25Z	INFO	controller-runtime.webhook	Starting webhook server
+I0306 21:45:25.543465       1 leaderelection.go:250] attempting to acquire leader lease argocd-operator-system/b674928d.argoproj.io...
+2024-03-06T21:45:25Z	INFO	controller-runtime.certwatcher	Updated current TLS certificate
+2024-03-06T21:45:25Z	INFO	controller-runtime.webhook	Serving webhook server	{"host": "", "port": 9443}
+2024-03-06T21:45:25Z	INFO	controller-runtime.certwatcher	Starting certificate watcher
+I0306 21:45:52.819170       1 leaderelection.go:260] successfully acquired lease argocd-operator-system/b674928d.argoproj.io
+2024-03-06T21:45:52Z	DEBUG	events	argocd-operator-controller-manager-78c8cd768f-p7ntd_8abf85c4-2f1e-43e0-96b9-d7fa829751e3 became leader	{"type": "Normal", "object": {"kind":"Lease","namespace":"argocd-operator-system","name":"b674928d.argoproj.io","uid":"117778bb-be54-4aeb-8b4d-4b6602b3003e","apiVersion":"coordination.k8s.io/v1","resourceVersion":"1025"}, "reason": "LeaderElection"}
+2024-03-06T21:45:52Z	INFO	Starting EventSource	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "source": "kind source: *v1beta1.ArgoCD"}
+2024-03-06T21:45:52Z	INFO	Starting EventSource	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "source": "kind source: *v1.ConfigMap"}
+2024-03-06T21:45:52Z	INFO	Starting EventSource	{"controller": "argocdexport", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCDExport", "source": "kind source: *v1alpha1.ArgoCDExport"}
+2024-03-06T21:45:52Z	INFO	Starting EventSource	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "source": "kind source: *v1.Secret"}
+2024-03-06T21:45:52Z	INFO	Starting EventSource	{"controller": "argocdexport", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCDExport", "source": "kind source: *v1.CronJob"}
+2024-03-06T21:45:52Z	INFO	Starting EventSource	{"controller": "argocdexport", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCDExport", "source": "kind source: *v1.Job"}
+2024-03-06T21:45:52Z	INFO	Starting EventSource	{"controller": "argocdexport", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCDExport", "source": "kind source: *v1.PersistentVolumeClaim"}
+2024-03-06T21:45:52Z	INFO	Starting EventSource	{"controller": "argocdexport", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCDExport", "source": "kind source: *v1.Secret"}
+2024-03-06T21:45:52Z	INFO	Starting Controller	{"controller": "argocdexport", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCDExport"}
+2024-03-06T21:45:52Z	INFO	Starting EventSource	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "source": "kind source: *v1.Service"}
+2024-03-06T21:45:52Z	INFO	Starting EventSource	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "source": "kind source: *v1.Deployment"}
+2024-03-06T21:45:52Z	INFO	Starting EventSource	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "source": "kind source: *v1.Ingress"}
+2024-03-06T21:45:52Z	INFO	Starting EventSource	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "source": "kind source: *v1.Role"}
+2024-03-06T21:45:52Z	INFO	Starting EventSource	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "source": "kind source: *v1.RoleBinding"}
+2024-03-06T21:45:52Z	INFO	Starting EventSource	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "source": "kind source: *v1.StatefulSet"}
+2024-03-06T21:45:52Z	INFO	Starting EventSource	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "source": "kind source: *v1.ClusterRoleBinding"}
+2024-03-06T21:45:52Z	INFO	Starting EventSource	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "source": "kind source: *v1.ClusterRole"}
+2024-03-06T21:45:52Z	INFO	Starting EventSource	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "source": "kind source: *v1.ConfigMap"}
+2024-03-06T21:45:52Z	INFO	Starting EventSource	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "source": "kind source: *v1.Secret"}
+2024-03-06T21:45:52Z	INFO	Starting EventSource	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "source": "kind source: *v1.Secret"}
+2024-03-06T21:45:52Z	INFO	Starting EventSource	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "source": "kind source: *v1.Namespace"}
+2024-03-06T21:45:52Z	INFO	Starting Controller	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD"}
+2024-03-06T21:45:52Z	INFO	Starting workers	{"controller": "argocdexport", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCDExport", "worker count": 1}
+2024-03-06T21:45:52Z	INFO	Starting workers	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "worker count": 1}
+2024-03-06T21:46:00Z	INFO	Reconciling ArgoCD	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "d4c8143c-521d-4870-9260-035c7df9a1f1", "namespace": "argocd-operator-system", "name": "test-cluster"}
+2024-03-06T21:46:00Z	INFO	conversion-webhook	v1beta1 to v1alpha1 conversion requested.
+2024-03-06T21:46:00Z	INFO	conversion-webhook	v1beta1 to v1alpha1 conversion requested.
+2024-03-06T21:46:00Z	INFO	controller_argocd	reconciling SSO
+2024-03-06T21:46:00Z	INFO	controller_argocd	reconciling status
+2024-03-06T21:46:00Z	INFO	controller_argocd	Operation cannot be fulfilled on argocds.argoproj.io "test-cluster": the object has been modified; please apply your changes to the latest version and try again
+2024-03-06T21:46:00Z	INFO	controller_argocd	reconciling roles
+2024-03-06T21:46:00Z	INFO	controller_argocd	creating role test-cluster-argocd-application-controller for Argo CD instance test-cluster in namespace argocd-operator-system
+2024-03-06T21:46:00Z	INFO	controller_argocd	creating role test-cluster-argocd-server for Argo CD instance test-cluster in namespace argocd-operator-system
+2024-03-06T21:46:00Z	INFO	controller_argocd	creating role test-cluster-argocd-redis-ha for Argo CD instance test-cluster in namespace argocd-operator-system
+2024-03-06T21:46:00Z	INFO	controller_argocd	creating role test-cluster-argocd-redis for Argo CD instance test-cluster in namespace argocd-operator-system
+2024-03-06T21:46:00Z	INFO	controller_argocd	creating role test-cluster-argocd-grafana for Argo CD instance test-cluster in namespace argocd-operator-system
+2024-03-06T21:46:00Z	INFO	controller_argocd	reconciling roles for source namespaces
+2024-03-06T21:46:00Z	INFO	controller_argocd	performing cleanup for source namespaces
+2024-03-06T21:46:00Z	INFO	controller_argocd	reconciling rolebindings
+2024-03-06T21:46:00Z	INFO	controller_argocd	creating serviceaccount test-cluster-argocd-application-controller for Argo CD instance test-cluster in namespace argocd-operator-system
+2024-03-06T21:46:00Z	INFO	controller_argocd	creating rolebinding test-cluster-argocd-application-controller for Argo CD instance test-cluster in namespace argocd-operator-system
+2024-03-06T21:46:00Z	INFO	controller_argocd	creating serviceaccount test-cluster-argocd-server for Argo CD instance test-cluster in namespace argocd-operator-system
+2024-03-06T21:46:00Z	INFO	controller_argocd	creating rolebinding test-cluster-argocd-server for Argo CD instance test-cluster in namespace argocd-operator-system
+2024-03-06T21:46:00Z	INFO	controller_argocd	creating serviceaccount test-cluster-argocd-redis-ha for Argo CD instance test-cluster in namespace argocd-operator-system
+2024-03-06T21:46:00Z	INFO	controller_argocd	creating rolebinding test-cluster-argocd-redis-ha for Argo CD instance test-cluster in namespace argocd-operator-system
+2024-03-06T21:46:00Z	INFO	controller_argocd	creating serviceaccount test-cluster-argocd-redis for Argo CD instance test-cluster in namespace argocd-operator-system
+2024-03-06T21:46:00Z	INFO	controller_argocd	creating rolebinding test-cluster-argocd-redis for Argo CD instance test-cluster in namespace argocd-operator-system
+2024-03-06T21:46:00Z	INFO	controller_argocd	creating serviceaccount test-cluster-argocd-grafana for Argo CD instance test-cluster in namespace argocd-operator-system
+2024-03-06T21:46:00Z	INFO	controller_argocd	creating rolebinding test-cluster-argocd-grafana for Argo CD instance test-cluster in namespace argocd-operator-system
+2024-03-06T21:46:00Z	INFO	controller_argocd	reconciling service accounts
+2024-03-06T21:46:00Z	INFO	controller_argocd	reconciling certificate authority
+2024-03-06T21:46:00Z	INFO	controller_argocd	reconciling CA secret
+2024-03-06T21:46:00Z	INFO	controller_argocd	reconciling CA config map
+2024-03-06T21:46:00Z	INFO	controller_argocd	reconciling secrets
+2024-03-06T21:46:00Z	INFO	controller_argocd	reconciling config maps
+2024-03-06T21:46:00Z	INFO	controller_argocd	Using default resource tracking method 'label'
+2024-03-06T21:46:00Z	INFO	controller_argocd	reconciling services
+2024-03-06T21:46:00Z	INFO	controller_argocd	reconciling deployments
+2024-03-06T21:46:00Z	INFO	controller_argocd	reconciling statefulsets
+2024-03-06T21:46:00Z	INFO	controller_argocd	existing argocd export not found, skipping import
+2024-03-06T21:46:00Z	INFO	controller_argocd	reconciling autoscalers
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling ingresses
+2024-03-06T21:46:01Z	INFO	controller_argocd	not enabled
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling repo-server TLS secret
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling redis-server TLS secret
+2024-03-06T21:46:01Z	INFO	Reconciling ArgoCD	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "2d7e8c67-1fc1-4439-9bc8-e5f2d63321ba", "namespace": "argocd-operator-system", "name": "test-cluster"}
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling SSO
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling status
+2024-03-06T21:46:01Z	INFO	conversion-webhook	v1beta1 to v1alpha1 conversion requested.
+2024-03-06T21:46:01Z	INFO	conversion-webhook	v1beta1 to v1alpha1 conversion requested.
+2024-03-06T21:46:01Z	INFO	conversion-webhook	v1beta1 to v1alpha1 conversion requested.
+2024-03-06T21:46:01Z	INFO	conversion-webhook	v1beta1 to v1alpha1 conversion requested.
+2024-03-06T21:46:01Z	INFO	conversion-webhook	v1beta1 to v1alpha1 conversion requested.
+2024-03-06T21:46:01Z	INFO	conversion-webhook	v1beta1 to v1alpha1 conversion requested.
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling roles
+2024-03-06T21:46:01Z	INFO	conversion-webhook	v1beta1 to v1alpha1 conversion requested.
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling roles for source namespaces
+2024-03-06T21:46:01Z	INFO	controller_argocd	performing cleanup for source namespaces
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling rolebindings
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling service accounts
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling certificate authority
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling CA secret
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling CA config map
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling secrets
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling config maps
+2024-03-06T21:46:01Z	INFO	controller_argocd	Using default resource tracking method 'label'
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling services
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling deployments
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling statefulsets
+2024-03-06T21:46:01Z	INFO	controller_argocd	existing argocd export not found, skipping import
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling autoscalers
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling ingresses
+2024-03-06T21:46:01Z	INFO	controller_argocd	not enabled
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling repo-server TLS secret
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling redis-server TLS secret
+2024-03-06T21:46:01Z	INFO	Reconciling ArgoCD	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "732be10d-e2a9-470e-9a40-c378876ceaad", "namespace": "argocd-operator-system", "name": "test-cluster"}
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling SSO
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling status
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling roles
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling roles for source namespaces
+2024-03-06T21:46:01Z	INFO	controller_argocd	performing cleanup for source namespaces
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling rolebindings
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling service accounts
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling certificate authority
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling CA secret
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling CA config map
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling secrets
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling config maps
+2024-03-06T21:46:01Z	INFO	controller_argocd	Using default resource tracking method 'label'
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling services
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling deployments
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling statefulsets
+2024-03-06T21:46:01Z	INFO	controller_argocd	existing argocd export not found, skipping import
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling autoscalers
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling ingresses
+2024-03-06T21:46:01Z	INFO	controller_argocd	not enabled
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling repo-server TLS secret
+2024-03-06T21:46:01Z	INFO	controller_argocd	reconciling redis-server TLS secret
+2024-03-06T21:46:03Z	INFO	Reconciling ArgoCD	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "51ca68f5-c552-4a36-9dfa-99c3b413b208", "namespace": "argocd-operator-system", "name": "test-cluster"}
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling SSO
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling status
+2024-03-06T21:46:03Z	INFO	conversion-webhook	v1beta1 to v1alpha1 conversion requested.
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling roles
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling roles for source namespaces
+2024-03-06T21:46:03Z	INFO	controller_argocd	performing cleanup for source namespaces
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling rolebindings
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling service accounts
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling certificate authority
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling CA secret
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling CA config map
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling secrets
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling config maps
+2024-03-06T21:46:03Z	INFO	controller_argocd	Using default resource tracking method 'label'
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling services
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling deployments
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling statefulsets
+2024-03-06T21:46:03Z	INFO	controller_argocd	existing argocd export not found, skipping import
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling autoscalers
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling ingresses
+2024-03-06T21:46:03Z	INFO	controller_argocd	not enabled
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling repo-server TLS secret
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling redis-server TLS secret
+2024-03-06T21:46:03Z	INFO	Reconciling ArgoCD	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "3989f551-36f7-4fbe-a0f5-84510130d55f", "namespace": "argocd-operator-system", "name": "test-cluster"}
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling SSO
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling status
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling roles
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling roles for source namespaces
+2024-03-06T21:46:03Z	INFO	controller_argocd	performing cleanup for source namespaces
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling rolebindings
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling service accounts
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling certificate authority
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling CA secret
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling CA config map
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling secrets
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling config maps
+2024-03-06T21:46:03Z	INFO	controller_argocd	Using default resource tracking method 'label'
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling services
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling deployments
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling statefulsets
+2024-03-06T21:46:03Z	INFO	controller_argocd	existing argocd export not found, skipping import
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling autoscalers
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling ingresses
+2024-03-06T21:46:03Z	INFO	controller_argocd	not enabled
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling repo-server TLS secret
+2024-03-06T21:46:03Z	INFO	controller_argocd	reconciling redis-server TLS secret
+2024-03-06T21:46:17Z	INFO	Reconciling ArgoCD	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "b01a27b3-258d-472e-8dd9-d4a1588ff29f", "namespace": "argocd-operator-system", "name": "test-cluster"}
+2024-03-06T21:46:17Z	INFO	controller_argocd	reconciling SSO
+2024-03-06T21:46:17Z	INFO	controller_argocd	reconciling status
+2024-03-06T21:46:17Z	INFO	controller_argocd	reconciling roles
+2024-03-06T21:46:17Z	INFO	controller_argocd	reconciling roles for source namespaces
+2024-03-06T21:46:17Z	INFO	controller_argocd	performing cleanup for source namespaces
+2024-03-06T21:46:17Z	INFO	controller_argocd	reconciling rolebindings
+2024-03-06T21:46:17Z	INFO	controller_argocd	reconciling service accounts
+2024-03-06T21:46:17Z	INFO	controller_argocd	reconciling certificate authority
+2024-03-06T21:46:17Z	INFO	controller_argocd	reconciling CA secret
+2024-03-06T21:46:17Z	INFO	controller_argocd	reconciling CA config map
+2024-03-06T21:46:17Z	INFO	controller_argocd	reconciling secrets
+2024-03-06T21:46:17Z	INFO	controller_argocd	reconciling config maps
+2024-03-06T21:46:17Z	INFO	controller_argocd	Using default resource tracking method 'label'
+2024-03-06T21:46:17Z	INFO	controller_argocd	reconciling services
+2024-03-06T21:46:17Z	INFO	controller_argocd	reconciling deployments
+2024-03-06T21:46:17Z	INFO	controller_argocd	reconciling statefulsets
+2024-03-06T21:46:17Z	INFO	controller_argocd	existing argocd export not found, skipping import
+2024-03-06T21:46:17Z	INFO	controller_argocd	reconciling autoscalers
+2024-03-06T21:46:17Z	INFO	controller_argocd	reconciling ingresses
+2024-03-06T21:46:17Z	INFO	controller_argocd	not enabled
+2024-03-06T21:46:17Z	INFO	controller_argocd	reconciling repo-server TLS secret
+2024-03-06T21:46:17Z	INFO	controller_argocd	reconciling redis-server TLS secret
+2024-03-06T21:46:17Z	INFO	Reconciling ArgoCD	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "64dcac60-96fb-462a-b1ef-78811e94113a", "namespace": "argocd-operator-system", "name": "test-cluster"}
+2024-03-06T21:46:17Z	INFO	controller_argocd	reconciling SSO
+2024-03-06T21:46:17Z	INFO	controller_argocd	reconciling status
+2024-03-06T21:46:18Z	INFO	controller_argocd	reconciling roles
+2024-03-06T21:46:18Z	INFO	controller_argocd	reconciling roles for source namespaces
+2024-03-06T21:46:18Z	INFO	controller_argocd	performing cleanup for source namespaces
+2024-03-06T21:46:18Z	INFO	controller_argocd	reconciling rolebindings
+2024-03-06T21:46:18Z	INFO	controller_argocd	reconciling service accounts
+2024-03-06T21:46:18Z	INFO	controller_argocd	reconciling certificate authority
+2024-03-06T21:46:18Z	INFO	controller_argocd	reconciling CA secret
+2024-03-06T21:46:18Z	INFO	controller_argocd	reconciling CA config map
+2024-03-06T21:46:18Z	INFO	controller_argocd	reconciling secrets
+2024-03-06T21:46:18Z	INFO	controller_argocd	reconciling config maps
+2024-03-06T21:46:18Z	INFO	controller_argocd	Using default resource tracking method 'label'
+2024-03-06T21:46:18Z	INFO	controller_argocd	reconciling services
+2024-03-06T21:46:18Z	INFO	controller_argocd	reconciling deployments
+2024-03-06T21:46:18Z	INFO	controller_argocd	reconciling statefulsets
+2024-03-06T21:46:18Z	INFO	controller_argocd	existing argocd export not found, skipping import
+2024-03-06T21:46:18Z	INFO	controller_argocd	reconciling autoscalers
+2024-03-06T21:46:18Z	INFO	controller_argocd	reconciling ingresses
+2024-03-06T21:46:18Z	INFO	controller_argocd	not enabled
+2024-03-06T21:46:18Z	INFO	controller_argocd	reconciling repo-server TLS secret
+2024-03-06T21:46:18Z	INFO	controller_argocd	reconciling redis-server TLS secret
+2024-03-06T21:46:31Z	INFO	Reconciling ArgoCD	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "3134650a-7c52-4963-b1fa-bee9144eb2be", "namespace": "argocd-operator-system", "name": "test-cluster"}
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling SSO
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling status
+2024-03-06T21:46:31Z	INFO	conversion-webhook	v1beta1 to v1alpha1 conversion requested.
+2024-03-06T21:46:31Z	INFO	conversion-webhook	v1beta1 to v1alpha1 conversion requested.
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling roles
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling roles for source namespaces
+2024-03-06T21:46:31Z	INFO	controller_argocd	performing cleanup for source namespaces
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling rolebindings
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling service accounts
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling certificate authority
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling CA secret
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling CA config map
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling secrets
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling config maps
+2024-03-06T21:46:31Z	INFO	controller_argocd	Using default resource tracking method 'label'
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling services
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling deployments
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling statefulsets
+2024-03-06T21:46:31Z	INFO	controller_argocd	existing argocd export not found, skipping import
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling autoscalers
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling ingresses
+2024-03-06T21:46:31Z	INFO	controller_argocd	not enabled
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling repo-server TLS secret
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling redis-server TLS secret
+2024-03-06T21:46:31Z	INFO	Reconciling ArgoCD	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "9672d51d-55ed-45a7-a110-1dcf51a9d916", "namespace": "argocd-operator-system", "name": "test-cluster"}
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling SSO
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling status
+2024-03-06T21:46:31Z	INFO	conversion-webhook	v1beta1 to v1alpha1 conversion requested.
+2024-03-06T21:46:31Z	INFO	conversion-webhook	v1beta1 to v1alpha1 conversion requested.
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling roles
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling roles for source namespaces
+2024-03-06T21:46:31Z	INFO	controller_argocd	performing cleanup for source namespaces
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling rolebindings
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling service accounts
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling certificate authority
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling CA secret
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling CA config map
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling secrets
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling config maps
+2024-03-06T21:46:31Z	INFO	controller_argocd	Using default resource tracking method 'label'
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling services
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling deployments
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling statefulsets
+2024-03-06T21:46:31Z	INFO	controller_argocd	existing argocd export not found, skipping import
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling autoscalers
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling ingresses
+2024-03-06T21:46:31Z	INFO	controller_argocd	not enabled
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling repo-server TLS secret
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling redis-server TLS secret
+2024-03-06T21:46:31Z	INFO	Reconciling ArgoCD	{"controller": "argocd", "controllerGroup": "argoproj.io", "controllerKind": "ArgoCD", "ArgoCD": {"name":"test-cluster","namespace":"argocd-operator-system"}, "namespace": "argocd-operator-system", "name": "test-cluster", "reconcileID": "bceaca3d-c5f7-490c-b972-7dae959fd019", "namespace": "argocd-operator-system", "name": "test-cluster"}
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling SSO
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling status
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling roles
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling roles for source namespaces
+2024-03-06T21:46:31Z	INFO	controller_argocd	performing cleanup for source namespaces
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling rolebindings
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling service accounts
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling certificate authority
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling CA secret
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling CA config map
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling secrets
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling config maps
+2024-03-06T21:46:31Z	INFO	controller_argocd	Using default resource tracking method 'label'
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling services
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling deployments
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling statefulsets
+2024-03-06T21:46:31Z	INFO	controller_argocd	existing argocd export not found, skipping import
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling autoscalers
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling ingresses
+2024-03-06T21:46:31Z	INFO	controller_argocd	not enabled
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling repo-server TLS secret
+2024-03-06T21:46:31Z	INFO	controller_argocd	reconciling redis-server TLS secret
+2024-03-06T21:47:21Z	INFO	conversion-webhook	v1beta1 to v1alpha1 conversion requested.

@@ -1,0 +1,28 @@
+{
+    "trial_id": "trial-03-0012",
+    "duration": 265.9859755039215,
+    "error": {
+        "crash": null,
+        "health": null,
+        "operator_log": null,
+        "consistency": {
+            "message": "Found no matching fields for input",
+            "input_diff": {
+                "prev": "NotPresent",
+                "curr": "ACTOKEY",
+                "path": {
+                    "path": [
+                        "spec",
+                        "prometheus",
+                        "ingress",
+                        "annotations",
+                        "ACTOKEY"
+                    ]
+                }
+            },
+            "system_state_diff": null
+        },
+        "differential": null,
+        "custom": null
+    }
+}

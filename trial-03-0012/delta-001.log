@@ -1,0 +1,164 @@
+---------- INPUT DELTA  ----------
+{
+      "dictionary_item_added": {
+            "root['spec']['repo'][sidecarContainers][0][name]": {
+                  "prev": "NotPresent",
+                  "curr": "hojlupteqv",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "repo",
+                              "sidecarContainers",
+                              0,
+                              "name"
+                        ]
+                  }
+            },
+            "root['spec']['repo'][sidecarContainers][0][readinessProbe][httpGet][port]": {
+                  "prev": "NotPresent",
+                  "curr": 2,
+                  "path": {
+                        "path": [
+                              "spec",
+                              "repo",
+                              "sidecarContainers",
+                              0,
+                              "readinessProbe",
+                              "httpGet",
+                              "port"
+                        ]
+                  }
+            },
+            "root['spec']['repo'][sidecarContainers][0][readinessProbe][httpGet][httpHeaders][0][name]": {
+                  "prev": "NotPresent",
+                  "curr": "INVALID_NAME",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "repo",
+                              "sidecarContainers",
+                              0,
+                              "readinessProbe",
+                              "httpGet",
+                              "httpHeaders",
+                              0,
+                              "name"
+                        ]
+                  }
+            },
+            "root['spec']['repo'][sidecarContainers][0][readinessProbe][httpGet][httpHeaders][0][value]": {
+                  "prev": "NotPresent",
+                  "curr": "tzfyomvgnp",
+                  "path": {
+                        "path": [
+                              "spec",
+                              "repo",
+                              "sidecarContainers",
+                              0,
+                              "readinessProbe",
+                              "httpGet",
+                              "httpHeaders",
+                              0,
+                              "value"
+                        ]
+                  }
+            }
+      }
+}
+---------- SYSTEM DELTA ----------
+{
+      "pod": {},
+      "deployment_pods": {},
+      "daemonset_pods": {},
+      "stateful_set": {},
+      "deployment": {},
+      "daemon_set": {},
+      "config_map": {},
+      "service": {},
+      "pvc": {},
+      "cronjob": {},
+      "ingress": {},
+      "network_policy": {},
+      "pod_disruption_budget": {},
+      "secret": {},
+      "endpoints": {},
+      "service_account": {},
+      "job": {},
+      "role": {},
+      "role_binding": {},
+      "custom_resource_spec": {
+            "dictionary_item_added": {
+                  "root['repo']['sidecarContainers'][0][name]": {
+                        "prev": "NotPresent",
+                        "curr": "hojlupteqv",
+                        "path": {
+                              "path": [
+                                    "repo",
+                                    "sidecarContainers",
+                                    0,
+                                    "name"
+                              ]
+                        }
+                  },
+                  "root['repo']['sidecarContainers'][0][readinessProbe][httpGet][httpHeaders][0][name]": {
+                        "prev": "NotPresent",
+                        "curr": "INVALID_NAME",
+                        "path": {
+                              "path": [
+                                    "repo",
+                                    "sidecarContainers",
+                                    0,
+                                    "readinessProbe",
+                                    "httpGet",
+                                    "httpHeaders",
+                                    0,
+                                    "name"
+                              ]
+                        }
+                  },
+                  "root['repo']['sidecarContainers'][0][readinessProbe][httpGet][httpHeaders][0][value]": {
+                        "prev": "NotPresent",
+                        "curr": "tzfyomvgnp",
+                        "path": {
+                              "path": [
+                                    "repo",
+                                    "sidecarContainers",
+                                    0,
+                                    "readinessProbe",
+                                    "httpGet",
+                                    "httpHeaders",
+                                    0,
+                                    "value"
+                              ]
+                        }
+                  },
+                  "root['repo']['sidecarContainers'][0][readinessProbe][httpGet][port]": {
+                        "prev": "NotPresent",
+                        "curr": 2,
+                        "path": {
+                              "path": [
+                                    "repo",
+                                    "sidecarContainers",
+                                    0,
+                                    "readinessProbe",
+                                    "httpGet",
+                                    "port"
+                              ]
+                        }
+                  },
+                  "root['repo']['sidecarContainers'][0][resources]": {
+                        "prev": "NotPresent",
+                        "curr": {},
+                        "path": {
+                              "path": [
+                                    "repo",
+                                    "sidecarContainers",
+                                    0,
+                                    "resources"
+                              ]
+                        }
+                  }
+            }
+      },
+      "custom_resource_status": {}
+}
